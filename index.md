@@ -49,7 +49,8 @@ Real command examples for all premium features with sample responses and usage t
 
 Everything in FREE, **plus**:
 
-- 📊 **[Live Result Updates](EXAMPLES.md#-live-result-updates)** - Real-time result date updates with result expectations
+- 📊 **Live Result Updates** - Near real-time result notifications
+- 💼 **Live Bulk Deals of New IPOs** - Near real-time bulk deals notifications
 - 📈 **[Trading Sessions](EXAMPLES.md#-trading-sessions-alerts)** - Pre/post-market movement alerts
 - 🔓 **[Anchor Unlocks](EXAMPLES.md#-anchor-unlock-alerts-30-day-lock-in)** - Lock-in period expiry alerts
 - 🔍 **[Pre-IPO Unlock Notifications](EXAMPLES.md#-pre-ipo-unlock-notifications-1-year-lock-in)** - Get notified before anchor lock-ins expire

@@ -22,7 +22,8 @@ MarketView is your personal Indian stock market assistant on Telegram. Get real-
 
 - 💼 Bulk Deals in New IPOs
 - 🆕 IPO Alerts
-- 📊 Live Result Updates (Premium)
+- 📊 Live Result Updates (Premium) - Near real-time notifications
+- 💼 Live Bulk Deals of New IPOs (Premium) - Near real-time notifications
 - 📈 Trading Sessions (Premium)
 - 🔓 Anchor Unlocks (Premium)
 - 🔍 Pre-IPO Unlock Notifications (Premium)

@@ -49,9 +49,14 @@ Upgrade to Premium for exclusive market intelligence!
 ### ⭐ Everything in FREE, plus:
 
 ### 📊 Live Result Updates (Premium Only)
-- **What**: Real-time result date updates with result expectations
+- **What**: Near real-time result notifications
 - **Coverage**: Get notified about upcoming results with performance expectations
 - **Value**: Plan your trades before results are announced
+
+### 💼 Live Bulk Deals of New IPOs (Premium Only)
+- **What**: Near real-time bulk deals notifications
+- **Coverage**: Large institutional trades in newly listed IPOs
+- **Value**: Track institutional money movement as it happens
 
 ### 📈 Trading Sessions (Premium Only)
 - **What**: Pre-market and post-market trading session alerts

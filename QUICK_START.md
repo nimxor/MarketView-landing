@@ -38,7 +38,8 @@
 
 Everything in FREE **plus**:
 
-- 📊 **Live Result Updates**: Real-time result date updates with result expectations
+- 📊 **Live Result Updates**: Near real-time result notifications
+- 💼 **Live Bulk Deals of New IPOs**: Near real-time bulk deals notifications
 - 📈 **Trading Sessions**: Pre/post-market movement alerts
 - 🔓 **Anchor Unlocks**: Lock-in period expiry alerts
 - 🔍 **Pre-IPO Unlock Notifications**: Get notified before anchor lock-ins expire

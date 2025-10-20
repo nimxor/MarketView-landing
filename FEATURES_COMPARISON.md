@@ -7,6 +7,7 @@
 | **Bulk Deals** (Daily 7:30 PM) | ✅ | ✅ |
 | **IPO Alerts** (Real-time) | ✅ | ✅ |
 | **Live Result Updates** | ❌ | ✅ |
+| **Live Bulk Deals of New IPOs** | ❌ | ✅ |
 | **Trading Sessions Alerts** | ❌ | ✅ |
 | **Anchor Unlock Alerts** | ❌ | ✅ |
 | **Pre-IPO Unlock Notifications** | ❌ | ✅ |
@@ -50,13 +51,27 @@
 **Available to**: Premium subscribers only
 
 **What you get**:
-- Real-time result date updates
+- Near real-time result notifications
 - Result expectations for companies
 - Upcoming quarterly result announcements
 - Company names and result dates
 - Expected performance indicators
 
 **Why it matters**: Plan your trades before results are announced. Know what to expect from earnings.
+
+---
+
+### 💼 Live Bulk Deals of New IPOs (Premium Only)
+**Available to**: Premium subscribers only
+
+**What you get**:
+- Near real-time bulk deals notifications
+- Large institutional trades in newly listed IPOs
+- Buyer/seller names and deal sizes
+- Buy/Sell indicators
+- Anchor investor activity highlighted
+
+**Why it matters**: Track institutional money movement as it happens. See where big players are betting in real-time.
 
 ---
 
@@ -233,8 +248,9 @@ These features are in development and will be added soon:
 
 ### Premium Plan Value (Annual)
 - **Everything in FREE**, plus:
-- **7 additional** exclusive features
-- **Live result updates** with expectations
+- **8 additional** exclusive features
+- **Live result updates** - near real-time notifications
+- **Live bulk deals** - near real-time notifications
 - **Query capabilities** for on-demand data
 - **Pre-IPO unlock** notifications
 - **Early access** to new features
