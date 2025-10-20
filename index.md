@@ -28,6 +28,10 @@ Comprehensive A-Z reference with detailed features, troubleshooting, FAQ, and su
 **[Features Comparison →](FEATURES_COMPARISON.md)**
 Side-by-side FREE vs Premium comparison, pricing breakdown, and upgrade guidance.
 
+### Premium Examples
+**[Premium Commands & Examples →](EXAMPLES.md)**
+Real command examples for all premium features with sample responses and usage tips.
+
 ---
 
 ## ✨ Features
@@ -45,13 +49,15 @@ Side-by-side FREE vs Premium comparison, pricing breakdown, and upgrade guidance
 
 Everything in FREE, **plus**:
 
-- 📊 **Live Result Updates** - Real-time result date updates with result expectations
-- 📈 **Trading Sessions** - Pre/post-market movement alerts
-- 🔓 **Anchor Unlocks** - Lock-in period expiry alerts
-- 🔍 **Pre-IPO Unlock Notifications** - Get notified before anchor lock-ins expire
-- 💼 **Query Bulk Deals** - Search and analyze bulk deal data on demand
-- 📊 **Query Results** - View result expectations for any company
-- ⭐ **Early Access** - New features before everyone else
+- 📊 **[Live Result Updates](EXAMPLES.md#-live-result-updates)** - Real-time result date updates with result expectations
+- 📈 **[Trading Sessions](EXAMPLES.md#-trading-sessions-alerts)** - Pre/post-market movement alerts
+- 🔓 **[Anchor Unlocks](EXAMPLES.md#-anchor-unlock-alerts-30-day-lock-in)** - Lock-in period expiry alerts
+- 🔍 **[Pre-IPO Unlock Notifications](EXAMPLES.md#-pre-ipo-unlock-notifications-1-year-lock-in)** - Get notified before anchor lock-ins expire
+- 💼 **[Query Bulk Deals](EXAMPLES.md#-query-bulk-deals)** - Search and analyze bulk deal data on demand
+- 📊 **[Query Results](EXAMPLES.md#-live-result-updates)** - View result expectations for any company
+- ⭐ **[Early Access](EXAMPLES.md#-early-access-to-new-features)** - New features before everyone else
+
+**[See command examples →](EXAMPLES.md)**
 
 ---
 

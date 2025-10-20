@@ -14,6 +14,7 @@ This repository contains the public-facing documentation for MarketView:
 - **QUICK_START.md** - 30-second quick start guide
 - **USER_GUIDE.md** - Complete user manual
 - **FEATURES_COMPARISON.md** - FREE vs Premium comparison
+- **EXAMPLES.md** - Premium command examples with real usage
 
 ## 🚀 About MarketView
 
