@@ -123,7 +123,7 @@ Welcome to the MarketView launch documentation! This folder contains all the gui
 ## 🔧 Customization Guide
 
 ### Update Bot Username
-Search and replace `@YourBotUsername` with your actual bot username in:
+Search and replace `@marketview_ipostream_bot` with your actual bot username in:
 - QUICK_START.md (line 5)
 - USER_GUIDE.md (line 9)
 
@@ -160,9 +160,9 @@ If adding new features, update:
 ✅ Starting ₹399/month (₹2,999/year)
 
 ### Call-to-Action Messages
-- "Start receiving free market updates → @YourBotUsername"
-- "Never miss an IPO again → @YourBotUsername"
-- "Track institutional money movement → @YourBotUsername"
+- "Start receiving free market updates → @marketview_ipostream_bot"
+- "Never miss an IPO again → @marketview_ipostream_bot"
+- "Track institutional money movement → @marketview_ipostream_bot"
 
 ---
 

@@ -8,7 +8,7 @@ Get real-time updates on quarterly results, IPO listings, bulk deals, and market
 
 ## 🚀 Get Started in 30 Seconds
 
-1. Search for `@YourBotUsername` on Telegram
+1. Visit [@marketview_ipostream_bot](https://t.me/marketview_ipostream_bot) on Telegram
 2. Send `/start`
 3. Done! Start receiving FREE market updates
 
@@ -36,8 +36,6 @@ Side-by-side FREE vs Premium comparison, pricing breakdown, and upgrade guidance
 
 | Feature | Details |
 |---------|---------|
-| 📊 **Results Calendar** | Daily 6:00 PM IST (Weekdays) |
-| | Upcoming company quarterly results |
 | 💼 **Bulk Deals** | Daily 7:30 PM IST (Weekdays) |
 | | Large trades in new IPOs (last 15 days) |
 | 🆕 **IPO Alerts** | Real-time notifications |
@@ -47,8 +45,12 @@ Side-by-side FREE vs Premium comparison, pricing breakdown, and upgrade guidance
 
 Everything in FREE, **plus**:
 
+- 📊 **Live Result Updates** - Real-time result date updates with result expectations
 - 📈 **Trading Sessions** - Pre/post-market movement alerts
 - 🔓 **Anchor Unlocks** - Lock-in period expiry alerts
+- 🔍 **Pre-IPO Unlock Notifications** - Get notified before anchor lock-ins expire
+- 💼 **Query Bulk Deals** - Search and analyze bulk deal data on demand
+- 📊 **Query Results** - View result expectations for any company
 - ⭐ **Early Access** - New features before everyone else
 
 ---
@@ -122,7 +124,7 @@ Everything in FREE, **plus**:
 
 **Ready to get started?**
 
-Search for `@YourBotUsername` on Telegram and send `/start`!
+Visit [@marketview_ipostream_bot](https://t.me/marketview_ipostream_bot) on Telegram and send `/start`!
 
 ---
 

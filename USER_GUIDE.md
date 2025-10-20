@@ -9,7 +9,7 @@ MarketView is your personal Indian stock market assistant on Telegram. Get real-
 ## Getting Started
 
 ### 1. Start the Bot
-- Search for `@YourBotUsername` on Telegram (replace with actual username)
+- Search for `@marketview_ipostream_bot` on Telegram (replace with actual username)
 - Send `/start` to begin
 - You're automatically subscribed to FREE features!
 

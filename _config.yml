@@ -2,6 +2,8 @@ title: MarketView
 description: Your Personal Indian Stock Market Assistant on Telegram
 theme: jekyll-theme-cayman
 show_downloads: false
+github:
+  is_project_page: false
 google_analytics:
 
 # Site settings

@@ -2,7 +2,7 @@
 
 ## 🚀 Get Started in 30 Seconds
 
-1. Search `@YourBotUsername` on Telegram
+1. Search `@marketview_ipostream_bot` on Telegram
 2. Send `/start`
 3. Done! You're now receiving FREE market updates
 
