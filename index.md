@@ -1,0 +1,131 @@
+# MarketView
+
+> Your Personal Indian Stock Market Assistant on Telegram
+
+Get real-time updates on quarterly results, IPO listings, bulk deals, and market insights delivered straight to your Telegram inbox.
+
+---
+
+## 🚀 Get Started in 30 Seconds
+
+1. Search for `@YourBotUsername` on Telegram
+2. Send `/start`
+3. Done! Start receiving FREE market updates
+
+---
+
+## 📚 Documentation
+
+### For New Users
+**[Quick Start Guide →](QUICK_START.md)**
+Get started in 30 seconds. Essential commands, features overview, and simple 3-step premium subscription.
+
+### For Everyone
+**[Complete User Guide →](USER_GUIDE.md)**
+Comprehensive A-Z reference with detailed features, troubleshooting, FAQ, and support information.
+
+### Choosing Premium?
+**[Features Comparison →](FEATURES_COMPARISON.md)**
+Side-by-side FREE vs Premium comparison, pricing breakdown, and upgrade guidance.
+
+---
+
+## ✨ Features
+
+### 🆓 FREE (Everyone Gets This!)
+
+| Feature | Details |
+|---------|---------|
+| 📊 **Results Calendar** | Daily 6:00 PM IST (Weekdays) |
+| | Upcoming company quarterly results |
+| 💼 **Bulk Deals** | Daily 7:30 PM IST (Weekdays) |
+| | Large trades in new IPOs (last 15 days) |
+| 🆕 **IPO Alerts** | Real-time notifications |
+| | New IPO announcements and updates |
+
+### 💎 PREMIUM (Paid Subscription)
+
+Everything in FREE, **plus**:
+
+- 📈 **Trading Sessions** - Pre/post-market movement alerts
+- 🔓 **Anchor Unlocks** - Lock-in period expiry alerts
+- ⭐ **Early Access** - New features before everyone else
+
+---
+
+## 💰 Pricing
+
+| Plan | Price | Duration | Savings |
+|------|-------|----------|---------|
+| Monthly | ₹399 | 30 days | - |
+| Quarterly | ₹999 | 90 days | 17% off |
+| Half-Yearly | ₹1,749 | 180 days | 27% off |
+| **Annual** ⭐ | **₹2,999** | **365 days** | **37% off** |
+
+> **Only ₹8.21/day** for annual plan - less than a cup of chai!
+
+---
+
+## 🔐 How to Subscribe
+
+1. **Request Plan**: Send `/premium` → Choose your plan
+2. **Make Payment**: Pay via UPI to `7073168617@axisbank`
+3. **Submit Proof**: Screenshot payment → Send to bot
+4. **Get Activated**: Admin verifies → Premium activated!
+
+**Payment accepted via**: UPI only (Google Pay, PhonePe, Paytm, etc.)
+
+---
+
+## 📱 Essential Commands
+
+```
+/start      - Begin receiving updates
+/premium    - View & subscribe to premium
+/status     - Check subscription status
+/help       - See all commands
+/settings   - Customize preferences
+```
+
+---
+
+## 💡 Why MarketView?
+
+✅ **No spam** - Only valuable market insights
+✅ **Real-time** - Get updates as they happen
+✅ **Curated** - Focus on what matters
+✅ **Affordable** - Premium from just ₹8/day
+✅ **Reliable** - Automated daily delivery
+
+---
+
+## 📞 Support
+
+**Business Hours**: Mon-Fri, 10 AM - 6 PM IST
+
+**Contact**: Available through the bot for:
+- Payment verification
+- Account issues
+- Feature questions
+
+---
+
+## 🎯 Perfect For
+
+- 📈 Active traders
+- 💼 Long-term investors
+- 🆕 IPO enthusiasts
+- 📊 Market followers
+- 💰 Anyone tracking Indian markets
+
+---
+
+**Ready to get started?**
+
+Search for `@YourBotUsername` on Telegram and send `/start`!
+
+---
+
+<p align="center">
+  <sub>Built with ❤️ for Indian stock market investors</sub>
+</p>

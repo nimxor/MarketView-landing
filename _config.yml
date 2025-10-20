@@ -1,0 +1,20 @@
+title: MarketView
+description: Your Personal Indian Stock Market Assistant on Telegram
+theme: jekyll-theme-cayman
+show_downloads: false
+google_analytics:
+
+# Site settings
+lang: en-US
+author: MarketView
+email:
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - LICENSE
+  - LAUNCH_README.md
