@@ -469,6 +469,108 @@ a:focus {
   outline-offset: 2px;
 }
 
+/* Support Section Styles */
+.support-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.support-card {
+  background: var(--bg-secondary);
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: center;
+  border: 2px solid var(--border-color);
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-md);
+}
+
+.support-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--accent-primary);
+}
+
+.support-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.support-card h3 {
+  color: var(--accent-primary);
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.support-card p {
+  color: var(--text-secondary);
+  margin: 1rem 0;
+}
+
+.support-btn {
+  display: inline-block;
+  margin: 1.5rem 0;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #0088cc 0%, #00aaff 100%);
+  color: white !important;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 136, 204, 0.3);
+  font-size: 1.1rem;
+}
+
+.support-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 136, 204, 0.4);
+  background: linear-gradient(135deg, #0099dd 0%, #00bbff 100%);
+  border-bottom-color: transparent;
+}
+
+.support-btn:active {
+  transform: translateY(0);
+}
+
+.support-hours {
+  font-size: 0.9rem;
+  color: var(--text-tertiary);
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.support-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.support-list li {
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  background: var(--bg-tertiary);
+  border-radius: 8px;
+  color: var(--text-primary);
+  transition: all 0.2s ease;
+}
+
+.support-list li:hover {
+  background: var(--accent-primary);
+  color: white;
+  transform: translateX(8px);
+}
+
+/* Telegram Icon in Support Button */
+.support-btn::before {
+  content: "✈️ ";
+  margin-right: 0.5rem;
+}
+
 /* Print Styles */
 @media print {
   .theme-toggle {
@@ -483,5 +585,9 @@ a:focus {
   body {
     background: white;
     color: black;
+  }
+
+  .support-btn {
+    background: #0088cc;
   }
 }

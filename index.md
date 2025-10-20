@@ -108,14 +108,31 @@ Everything in FREE, **plus**:
 
 ---
 
-## 📞 Support
+## 📞 Support & Contact
 
-**Business Hours**: Mon-Fri, 10 AM - 6 PM IST
+<div class="support-section">
+  <div class="support-card">
+    <div class="support-icon">💬</div>
+    <h3>Get Help</h3>
+    <p><strong>Telegram Support:</strong></p>
+    <a href="https://t.me/nimxor_marketview" class="btn support-btn" target="_blank">
+      Contact @nimxor_marketview
+    </a>
+    <p class="support-hours">⏰ Business Hours: Mon-Fri, 10 AM - 6 PM IST</p>
+  </div>
 
-**Contact**: Available through the bot for:
-- Payment verification
-- Account issues
-- Feature questions
+  <div class="support-card">
+    <div class="support-icon">🤖</div>
+    <h3>Bot Support</h3>
+    <p>Get help directly through the bot:</p>
+    <ul class="support-list">
+      <li>💳 Payment verification</li>
+      <li>🔧 Account issues</li>
+      <li>❓ Feature questions</li>
+      <li>📋 Subscription management</li>
+    </ul>
+  </div>
+</div>
 
 ---
 
