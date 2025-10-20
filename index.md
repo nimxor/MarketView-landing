@@ -149,9 +149,3 @@ Everything in FREE, **plus**:
 **Ready to get started?**
 
 Visit [@marketview_ipostream_bot](https://t.me/marketview_ipostream_bot) on Telegram and send `/start`!
-
----
-
-<p align="center">
-  <sub>Built with ❤️ for Indian stock market investors</sub>
-</p>
