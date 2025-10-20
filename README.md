@@ -19,11 +19,15 @@ This repository contains the public-facing documentation for MarketView:
 
 MarketView is your personal Indian stock market assistant on Telegram. Get real-time updates on:
 
-- 📊 Quarterly Results Calendar
 - 💼 Bulk Deals in New IPOs
 - 🆕 IPO Alerts
+- 📊 Live Result Updates (Premium)
 - 📈 Trading Sessions (Premium)
 - 🔓 Anchor Unlocks (Premium)
+- 🔍 Pre-IPO Unlock Notifications (Premium)
+- 💼 Query Bulk Deals (Premium)
+- 📊 Query Results (Premium)
+- ⭐ Early Access to New Features (Premium)
 
 ## 🔧 Local Development
 

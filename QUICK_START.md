@@ -2,7 +2,7 @@
 
 ## 🚀 Get Started in 30 Seconds
 
-1. Search `@marketview_ipostream_bot` on Telegram
+1. Visit [@marketview_ipostream_bot](https://t.me/marketview_ipostream_bot) on Telegram
 2. Send `/start`
 3. Done! You're now receiving FREE market updates
 
@@ -22,11 +22,6 @@
 
 ## 🆓 FREE Features (Everyone Gets This!)
 
-### 📊 Results Calendar
-- **Timing**: Daily 6:00 PM IST (Weekdays)
-- **What**: Upcoming company quarterly results
-- **Includes**: Company name, date, expected performance
-
 ### 💼 Bulk Deals
 - **Timing**: Daily 7:30 PM IST (Weekdays)
 - **What**: Large trades in new IPOs (last 15 days)
@@ -43,8 +38,13 @@
 
 Everything in FREE **plus**:
 
+- 📊 **Live Result Updates**: Real-time result date updates with result expectations
 - 📈 **Trading Sessions**: Pre/post-market movement alerts
 - 🔓 **Anchor Unlocks**: Lock-in period expiry alerts
+- 🔍 **Pre-IPO Unlock Notifications**: Get notified before anchor lock-ins expire
+- 💼 **Query Bulk Deals**: Search and analyze bulk deal data on demand
+- 📊 **Query Results**: View result expectations for any company
+- ⭐ **Early Access**: New features before everyone else
 
 ---
 
@@ -70,7 +70,6 @@ Tap on: Your desired plan
 ### Step 2: Make Payment
 - Open any UPI app
 - Pay to: `7073168617@axisbank`
-- **Add your reference code** (e.g., `#MV1234`) in payment note
 - Amount: As shown for your plan
 
 ### Step 3: Submit Proof
@@ -84,12 +83,10 @@ Tap on: Your desired plan
 ## ⚠️ Important Payment Notes
 
 ✅ **DO THIS**:
-- Include reference code in payment note
 - Send screenshot within 24 hours
 - Wait for admin verification
 
 ❌ **DON'T DO THIS**:
-- Make payment without reference code
 - Send screenshot after 24 hours
 - Make duplicate payments
 
@@ -98,7 +95,7 @@ Tap on: Your desired plan
 ## ❓ Quick FAQ
 
 **Q: When will I receive messages?**
-- Results & Deals: 6 PM & 7:30 PM IST (Weekdays)
+- Bulk Deals: 7:30 PM IST (Weekdays)
 - IPO Alerts: Real-time
 - Premium: Based on market activity
 
@@ -108,7 +105,6 @@ Tap on: Your desired plan
 
 **Q: Payment not verified?**
 - Wait 24 hours
-- Ensure reference code was in payment
 - Check screenshot was sent
 
 **Q: Wrong plan selected?**

@@ -4,31 +4,19 @@
 
 | Feature | FREE | PREMIUM |
 |---------|:----:|:-------:|
-| **Results Calendar** (Daily 6 PM) | ✅ | ✅ |
 | **Bulk Deals** (Daily 7:30 PM) | ✅ | ✅ |
 | **IPO Alerts** (Real-time) | ✅ | ✅ |
+| **Live Result Updates** | ❌ | ✅ |
 | **Trading Sessions Alerts** | ❌ | ✅ |
 | **Anchor Unlock Alerts** | ❌ | ✅ |
+| **Pre-IPO Unlock Notifications** | ❌ | ✅ |
+| **Query Bulk Deals** | ❌ | ✅ |
+| **Query Results** | ❌ | ✅ |
 | **Early Access to New Features** | ❌ | ✅ |
-| **Priority Support** | ❌ | ✅ |
 
 ---
 
 ## Feature Details
-
-### 📊 Results Calendar
-**Available to**: Everyone (FREE + Premium)
-
-**What you get**:
-- Daily alerts at 6:00 PM IST (Weekdays)
-- Upcoming quarterly result announcements
-- Company names and result dates
-- Expected performance indicators
-- Coverage: Mainboard & SME companies
-
-**Why it matters**: Plan your trades before results are announced. Catch opportunities early.
-
----
 
 ### 💼 Bulk Deals
 **Available to**: Everyone (FREE + Premium)
@@ -58,6 +46,20 @@
 
 ---
 
+### 📊 Live Result Updates (Premium Only)
+**Available to**: Premium subscribers only
+
+**What you get**:
+- Real-time result date updates
+- Result expectations for companies
+- Upcoming quarterly result announcements
+- Company names and result dates
+- Expected performance indicators
+
+**Why it matters**: Plan your trades before results are announced. Know what to expect from earnings.
+
+---
+
 ### 📈 Trading Sessions (Premium Only)
 **Available to**: Premium subscribers only
 
@@ -83,6 +85,58 @@
 - Advance notifications
 
 **Why it matters**: Anticipate price movements. Anchor unlocks often trigger volatility - be prepared.
+
+---
+
+### 🔍 Pre-IPO Unlock Notifications (Premium Only)
+**Available to**: Premium subscribers only
+
+**What you get**:
+- Advance notifications before anchor lock-ins expire
+- Countdown alerts for upcoming unlocks
+- Preparation time for potential volatility
+- Coverage: All recent IPOs
+
+**Why it matters**: Get early warning to plan your trading strategy before anchor selling pressure hits.
+
+---
+
+### 💼 Query Bulk Deals (Premium Only)
+**Available to**: Premium subscribers only
+
+**What you get**:
+- On-demand bulk deal searches
+- Historical bulk deal data
+- Search by company, date, or investor
+- Analyze institutional trading patterns
+
+**Why it matters**: Research before investing. See historical institutional activity in any stock.
+
+---
+
+### 📊 Query Results (Premium Only)
+**Available to**: Premium subscribers only
+
+**What you get**:
+- On-demand result date queries
+- View result expectations anytime
+- Check upcoming results for any company
+- No need to wait for scheduled alerts
+
+**Why it matters**: Get result information when you need it, not just during scheduled broadcasts.
+
+---
+
+### ⭐ Early Access (Premium Only)
+**Available to**: Premium subscribers only
+
+**What you get**:
+- First access to all new features
+- Beta testing opportunities
+- Influence future development
+- Stay ahead with latest capabilities
+
+**Why it matters**: Get competitive advantage with newest tools before they're publicly available.
 
 ---
 
@@ -116,7 +170,6 @@ These features are in development and will be added soon:
 **Cost**: ₹0 (Free Forever)
 **Best for**: Casual investors, beginners
 **Includes**:
-- Results Calendar
 - Bulk Deals
 - IPO Alerts
 
@@ -170,8 +223,8 @@ These features are in development and will be added soon:
 ## Value Proposition
 
 ### Free Plan Value
-- **3 types of alerts** daily
-- **7 days/week** coverage (weekdays)
+- **2 types of alerts**
+- **Daily coverage** (weekdays)
 - **Real-time** IPO updates
 - **₹0** cost
 - **No commitment** required
@@ -180,9 +233,11 @@ These features are in development and will be added soon:
 
 ### Premium Plan Value (Annual)
 - **Everything in FREE**, plus:
-- **2 additional** exclusive alert types
+- **7 additional** exclusive features
+- **Live result updates** with expectations
+- **Query capabilities** for on-demand data
+- **Pre-IPO unlock** notifications
 - **Early access** to new features
-- **Priority support**
 - **Only ₹8.21/day** (less than a cup of chai!)
 
 **Annual Value**: Professional market intelligence for less than the cost of one trading commission!
@@ -196,8 +251,8 @@ These features are in development and will be added soon:
 
 **Q: What happens when premium expires?**
 - You automatically revert to FREE plan
-- Keep access to Results, Bulk Deals, and IPO alerts
-- Lose access to Trading Sessions and Anchor Unlocks
+- Keep access to Bulk Deals and IPO alerts
+- Lose access to all premium features (Result Updates, Trading Sessions, Anchor Unlocks, Query features, etc.)
 
 **Q: Can I cancel my premium subscription?**
 - Premium is pre-paid, not recurring

@@ -9,7 +9,7 @@ MarketView is your personal Indian stock market assistant on Telegram. Get real-
 ## Getting Started
 
 ### 1. Start the Bot
-- Search for `@marketview_ipostream_bot` on Telegram (replace with actual username)
+- Visit [@marketview_ipostream_bot](https://t.me/marketview_ipostream_bot) on Telegram
 - Send `/start` to begin
 - You're automatically subscribed to FREE features!
 
@@ -27,12 +27,6 @@ MarketView is your personal Indian stock market assistant on Telegram. Get real-
 ## FREE Features
 
 All users get these features automatically - no payment required!
-
-### 📊 Results Calendar (Daily 6:00 PM IST)
-- **What**: Upcoming quarterly results announcements
-- **When**: Weekdays at 6:00 PM IST
-- **Coverage**: Mainboard & SME companies
-- **Details**: Company name, result date, expected performance
 
 ### 💼 Bulk Deals (Daily 7:30 PM IST)
 - **What**: Large institutional trades in newly listed IPOs
@@ -54,6 +48,11 @@ Upgrade to Premium for exclusive market intelligence!
 
 ### ⭐ Everything in FREE, plus:
 
+### 📊 Live Result Updates (Premium Only)
+- **What**: Real-time result date updates with result expectations
+- **Coverage**: Get notified about upcoming results with performance expectations
+- **Value**: Plan your trades before results are announced
+
 ### 📈 Trading Sessions (Premium Only)
 - **What**: Pre-market and post-market trading session alerts
 - **Coverage**: Active stocks with significant movement
@@ -63,6 +62,25 @@ Upgrade to Premium for exclusive market intelligence!
 - **What**: Alerts when anchor investor lock-in periods end
 - **Coverage**: Recent IPOs approaching unlock dates
 - **Value**: Anticipate potential price movements
+
+### 🔍 Pre-IPO Unlock Notifications (Premium Only)
+- **What**: Get notified before anchor lock-ins expire
+- **Coverage**: Upcoming unlock dates with advance notice
+- **Value**: Be prepared for potential volatility
+
+### 💼 Query Bulk Deals (Premium Only)
+- **What**: Search and analyze bulk deal data on demand
+- **Coverage**: Historical bulk deal information
+- **Value**: Research specific companies or time periods
+
+### 📊 Query Results (Premium Only)
+- **What**: View result expectations for any company
+- **Coverage**: On-demand result date information
+- **Value**: Check result schedules anytime you need
+
+### ⭐ Early Access (Premium Only)
+- **What**: New features before everyone else
+- **Value**: Be the first to benefit from new capabilities
 
 ---
 
@@ -99,7 +117,6 @@ Send: /premium
 ### Step 3: Make UPI Payment
 - Open any UPI app (Google Pay, PhonePe, Paytm, etc.)
 - Pay to UPI ID: `7073168617@axisbank`
-- **Important**: Add your reference code (e.g., `#MV1234`) in payment note/remarks
 - Amount: As shown in your plan details
 
 ### Step 4: Send Payment Screenshot
@@ -157,10 +174,8 @@ Send: /settings
 - **Payment Method**: UPI only (Indian payment method)
 - **Verification Time**: Usually within a few hours, max 24 hours
 - **Refunds**: Contact admin if payment not verified within 24 hours
-- **Reference Code**: MUST be included in payment note for quick verification
 
 ### Delivery Schedule
-- **Results Calendar**: 6:00 PM IST (Weekdays only)
 - **Bulk Deals**: 7:30 PM IST (Weekdays only)
 - **IPO Alerts**: Real-time (anytime)
 - **Premium Alerts**: Based on market activity
@@ -182,9 +197,8 @@ Send: /settings
 
 ### Payment Not Verified?
 1. Wait 24 hours for admin verification
-2. Ensure reference code was in payment note
-3. Check screenshot was sent correctly
-4. Contact admin if still pending after 24 hours
+2. Check screenshot was sent correctly
+3. Contact admin if still pending after 24 hours
 
 ### Wrong Plan Selected?
 - Premium requests expire in 24 hours
