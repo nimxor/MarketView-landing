@@ -66,19 +66,19 @@ Everything in FREE, **plus**:
 
 | Plan | Price | Duration | Savings |
 |------|-------|----------|---------|
-| Monthly | ₹399 | 30 days | - |
-| Quarterly | ₹999 | 90 days | 17% off |
-| Half-Yearly | ₹1,749 | 180 days | 27% off |
-| **Annual** ⭐ | **₹2,999** | **365 days** | **37% off** |
+| Monthly | ₹599 | 30 days | - |
+| Quarterly | ₹1,499 | 90 days | 17% off |
+| Half-Yearly | ₹2,699 | 180 days | 25% off |
+| **Annual** ⭐ | **₹4,999** | **365 days** | **30% off** |
 
-> **Only ₹8.21/day** for annual plan - less than a cup of chai!
+> **Only ₹13.69/day** for annual plan - less than a movie ticket!
 
 ---
 
 ## 🔐 How to Subscribe
 
 1. **Request Plan**: Send `/premium` → Choose your plan
-2. **Make Payment**: Pay via UPI to `7073168617@axisbank`
+2. **Make Payment**: Pay via UPI to `7073168617@ybl`
 3. **Submit Proof**: Screenshot payment → Send to bot
 4. **Get Activated**: Admin verifies → Premium activated!
 
@@ -103,7 +103,7 @@ Everything in FREE, **plus**:
 ✅ **No spam** - Only valuable market insights
 ✅ **Real-time** - Get updates as they happen
 ✅ **Curated** - Focus on what matters
-✅ **Affordable** - Premium from just ₹8/day
+✅ **Affordable** - Premium from just ₹13.69/day
 ✅ **Reliable** - Automated daily delivery
 
 ---
