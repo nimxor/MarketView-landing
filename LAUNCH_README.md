@@ -74,10 +74,10 @@ Welcome to the MarketView launch documentation! This folder contains all the gui
 
 | Plan | Price | Duration | Savings |
 |------|-------|----------|---------|
-| Monthly | ₹399 | 30 days | - |
-| Quarterly | ₹999 | 90 days | 17% |
-| Half-Yearly | ₹1,749 | 180 days | 27% |
-| Annual | ₹2,999 | 365 days | 37% ⭐ |
+| Monthly | ₹599 | 30 days | - |
+| Quarterly | ₹1499 | 90 days | 17% |
+| Half-Yearly | ₹2699 | 180 days | 25% |
+| Annual | ₹4,999 | 365 days | 30% ⭐ |
 
 ### Payment Details
 
