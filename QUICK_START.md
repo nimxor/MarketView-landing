@@ -53,7 +53,7 @@ Everything in FREE **plus**:
 
 | Plan | Price | Duration | Savings |
 |------|-------|----------|---------|
-| Monthly | ₹699 | 30 days | - |
+| Monthly | ₹599 | 30 days | - |
 | Quarterly | ₹1,499 | 90 days | 17% |
 | Half-Yearly | ₹2,699 | 180 days | 25% |
 | **Annual** ⭐ | ₹4,999 | 365 days | **30%** |
@@ -70,7 +70,7 @@ Tap on: Your desired plan
 
 ### Step 2: Make Payment
 - Open any UPI app
-- Pay to: `7073168617@axisbank`
+- Pay to: `7073168617@ybl`
 - Amount: As shown for your plan
 
 ### Step 3: Submit Proof
