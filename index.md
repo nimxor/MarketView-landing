@@ -66,12 +66,12 @@ Everything in FREE, **plus**:
 
 | Plan | Price | Duration | Savings |
 |------|-------|----------|---------|
-| Monthly | ₹599 | 30 days | - |
-| Quarterly | ₹1,499 | 90 days | 17% off |
-| Half-Yearly | ₹2,699 | 180 days | 25% off |
-| **Annual** ⭐ | **₹4,999** | **365 days** | **30% off** |
+| Monthly | ₹699 | 30 days | - |
+| Quarterly | ₹1,799 | 90 days | 14% off |
+| Half-Yearly | ₹3,199 | 180 days | 24% off |
+| **Annual** ⭐ | **₹5,999** | **365 days** | **30% off** |
 
-> **Only ₹13.69/day** for annual plan - less than a movie ticket!
+> **Only ₹16.43/day** for annual plan - less than a movie ticket!
 
 ---
 

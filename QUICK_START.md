@@ -53,10 +53,10 @@ Everything in FREE **plus**:
 
 | Plan | Price | Duration | Savings |
 |------|-------|----------|---------|
-| Monthly | ₹599 | 30 days | - |
-| Quarterly | ₹1,499 | 90 days | 17% |
-| Half-Yearly | ₹2,699 | 180 days | 25% |
-| **Annual** ⭐ | ₹4,999 | 365 days | **30%** |
+| Monthly | ₹699 | 30 days | - |
+| Quarterly | ₹1,799 | 90 days | 14% |
+| Half-Yearly | ₹3,199 | 180 days | 24% |
+| **Annual** ⭐ | ₹5,999 | 365 days | **30%** |
 
 ---
 
