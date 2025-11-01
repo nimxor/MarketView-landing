@@ -109,6 +109,166 @@ TATASTEEL
 
 ---
 
+## 🌟 VIP/HNI Bulk Deal Alerts (NEW!)
+
+**Trigger**: Automatic (Premium Only)
+
+Get instant notifications when VIP clients or HNIs make bulk deals in IPO stocks!
+
+### What Triggers Alerts
+
+Premium users automatically receive alerts when:
+- **VIP clients** appear in bulk deals for IPO stocks
+- **HNI traders** make significant moves
+- **Known operators** enter or exit positions
+
+### Sample VIP Client Alert
+
+```
+🌟 VIP CLIENT BULK DEAL ALERT
+
+📊 JAYESH LOGISTICS (JAYESH)
+📅 Date: 01 Nov 2025
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⭐ VIP CLIENT ACTIVITY
+
+🟢 BUY
+Client: PREMIUM INVESTMENT TRUST
+Qty: 50,000 @ ₹125.50
+Value: ₹62.75L
+Exchange: NSE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔍 Why This Matters:
+This client has history of profitable exits
+in recent IPOs. Their entry often signals
+confidence in the stock.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### What You Get (Premium Only)
+
+- **Real-time alerts** when VIP clients trade
+- **Client identification** with track record
+- **Deal details**: Quantity, price, value
+- **Exchange information** (NSE/BSE)
+- **Context**: Why this deal matters
+- **Historical insights** on client performance
+
+### Automated Broadcasts
+
+Premium users receive these alerts **automatically** every 30 minutes when:
+- New bulk deals are detected
+- VIP clients are involved
+- Deal value exceeds thresholds
+
+---
+
+## 🎯 Anchor Entry/Exit Alerts (NEW!)
+
+**Trigger**: Automatic (Premium Only)
+
+Get instant notifications when anchor investors enter or exit positions!
+
+### What Triggers Alerts
+
+Premium users automatically receive alerts when:
+- **Anchor investors** buy back into IPO stocks (re-entry)
+- **Anchor investors** exit positions (sell)
+- **Significant anchor activity** detected
+
+### Sample Anchor Entry Alert
+
+```
+✅ ANCHOR ENTRY ALERT
+
+📊 ORKLA INDIA (ORKLAINDIA)
+📅 Date: 01 Nov 2025
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🟢 ANCHOR RE-ENTRY
+
+Client: CITIGROUP GLOBAL MARKETS
+Qty: 1,00,000 @ ₹785.00
+Value: ₹7.85Cr
+Exchange: NSE
+
+🌟 Signal: BULLISH
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔍 Analysis:
+Anchor re-entering after lock-in period
+often indicates strong confidence in
+fundamentals. Historically positive signal.
+
+IPO Details:
+Listed: 06 Nov 2025
+Listing Gain: +8.2%
+Current GMP: +₹68
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Sample Anchor Exit Alert
+
+```
+⚠️ ANCHOR EXIT ALERT
+
+📊 ABC TECH LTD (ABCTECH)
+📅 Date: 01 Nov 2025
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔴 ANCHOR EXIT
+
+Client: KOTAK INSTITUTIONAL EQUITIES
+Qty: 2,50,000 @ ₹425.50
+Value: ₹10.64Cr
+Exchange: NSE
+
+🌟 Signal: CAUTION
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔍 Analysis:
+Anchor exiting shortly after lock-in
+expiry. May indicate profit booking or
+reduced confidence. Monitor for
+continued selling pressure.
+
+IPO Details:
+Listed: 28 Oct 2025
+Days Since Listing: 4 days
+Listing Gain: +15.2%
+Lock-in: 30 days (expired)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### What You Get (Premium Only)
+
+- **Instant alerts** for anchor activity
+- **Entry/Exit signals** (Bullish/Bearish/Caution)
+- **Deal details**: Client name, quantity, value
+- **IPO context**: Listing date, gains, lock-in status
+- **Analysis**: Why this matters for your trading
+- **Historical patterns**: How similar moves performed
+
+### Automated Broadcasts
+
+Premium users receive these alerts **automatically** every 30 minutes when:
+- Anchor investors make bulk deals
+- Both entries and exits are tracked
+- Deals are in IPO stocks (listed in last 365 days)
+
+---
+
 ## 📈 Trading Sessions Alerts
 
 **Command**: `/trading_session`

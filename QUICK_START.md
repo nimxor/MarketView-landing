@@ -10,27 +10,54 @@
 
 ## 📱 Essential Commands
 
+### Free Commands (Everyone)
 | Command | What it does |
 |---------|-------------|
 | `/start` | Begin receiving updates |
-| `/premium` | View & subscribe to premium plans |
+| `/ipo NAME` | Get IPO details (GMP, prices, dates, RHP) |
+| `/ipos` | View all active & upcoming IPOs |
+| `/today` | Today's market summary |
 | `/status` | Check your subscription |
 | `/help` | See all commands |
 | `/unsubscribe` | Pause all notifications |
+
+### Premium Commands
+| Command | What it does |
+|---------|-------------|
+| `/results SYMBOL` | Query result dates & expectations |
+| `/deals SYMBOL` | Query bulk deals for any stock |
+| `/premium` | View & subscribe to premium plans |
 
 ---
 
 ## 🆓 FREE Features (Everyone Gets This!)
 
-### 💼 Bulk Deals
+### 🆕 Automatic IPO Notifications (NEW!)
+- **Timing**: Real-time, automatic
+- **What**: New IPOs, status changes (Opening, Closing, Listed)
+- **Includes**: GMP, prices, dates, lead manager, RHP link
+
+### 📊 IPO Details Command (NEW!)
+- **Command**: `/ipo <name or symbol>`
+- **What**: Get complete IPO information
+- **Includes**: Price band, GMP, expected listing, dates, lead manager, RHP
+
+### 📋 Active IPOs List
+- **Command**: `/ipos`
+- **What**: View all active & upcoming IPOs
+- **Includes**: Current active, upcoming, recent listings (7 days)
+
+### 📈 Market Summary
+- **Command**: `/today`
+- **What**: Today's market snapshot
+- **Includes**: Indices, active IPOs, results, top bulk deals
+
+### 💼 Daily Bulk Deals
 - **Timing**: Daily 7:30 PM IST (Weekdays)
 - **What**: Large trades in new IPOs (last 15 days)
-- **Includes**: Buyer/seller names, quantities
+- **Includes**: Buyer/seller names, quantities, values
 
-### 🆕 IPO Alerts
-- **Timing**: Real-time
-- **What**: New IPO announcements
-- **Includes**: Name, price, dates
+**[See all free features →](FREE_FEATURES.md)**
 
 ---
 
@@ -38,14 +65,17 @@
 
 Everything in FREE **plus**:
 
-- 📊 **Live Result Updates**: Near real-time result notifications
-- 💼 **Live Bulk Deals of New IPOs**: Near real-time bulk deals notifications
-- 📈 **Trading Sessions**: Pre/post-market movement alerts
-- 🔓 **Anchor Unlocks**: Lock-in period expiry alerts
-- 🔍 **Pre-IPO Unlock Notifications**: Get notified before anchor lock-ins expire
-- 💼 **Query Bulk Deals**: Search and analyze bulk deal data on demand
-- 📊 **Query Results**: View result expectations for any company
+- 📊 **Live Result Updates**: Near real-time result notifications with expectations
+- 💼 **Query Bulk Deals**: Search and analyze bulk deal data on demand for any stock
+- 🌟 **VIP/HNI Bulk Deal Alerts**: Automatic alerts when VIP clients trade (NEW!)
+- 🎯 **Anchor Entry/Exit Alerts**: Real-time anchor investor tracking (NEW!)
+- 📈 **Trading Sessions**: SME IPOs approaching 10th trading session
+- 🔓 **Anchor Unlocks (30-day)**: 30-day lock-in period expiry alerts
+- 🔓 **Anchor Unlocks (90-day)**: 90-day lock-in period expiry alerts
+- 🔍 **Pre-IPO Unlock Notifications**: 1-year lock-in expiry tracking
 - ⭐ **Early Access**: New features before everyone else
+
+**[See all premium examples →](EXAMPLES.md)**
 
 ---
 
@@ -96,9 +126,9 @@ Tap on: Your desired plan
 ## ❓ Quick FAQ
 
 **Q: When will I receive messages?**
+- IPO Notifications: Real-time, automatic
 - Bulk Deals: 7:30 PM IST (Weekdays)
-- IPO Alerts: Real-time
-- Premium: Based on market activity
+- Premium Alerts: Based on market activity (VIP deals, anchors, etc.)
 
 **Q: How to pause notifications?**
 - Send `/unsubscribe`

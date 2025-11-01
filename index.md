@@ -28,6 +28,10 @@ Comprehensive A-Z reference with detailed features, troubleshooting, FAQ, and su
 **[Features Comparison →](FEATURES_COMPARISON.md)**
 Side-by-side FREE vs Premium comparison, pricing breakdown, and upgrade guidance.
 
+### Free Features
+**[Free Commands & Examples →](FREE_FEATURES.md)**
+Detailed guide for all FREE features including automatic IPO notifications, `/ipo` command, and more.
+
 ### Premium Examples
 **[Premium Commands & Examples →](EXAMPLES.md)**
 Real command examples for all premium features with sample responses and usage tips.
@@ -40,25 +44,32 @@ Real command examples for all premium features with sample responses and usage t
 
 | Feature | Details |
 |---------|---------|
-| 💼 **Bulk Deals** | Daily 7:30 PM IST (Weekdays) |
+| 🆕 **Automatic IPO Notifications** | Real-time alerts for new IPOs, status changes |
+| | New IPO added, Opening, Closing, Listed |
+| 📊 **IPO Details Command** | `/ipo <name>` - Get complete IPO info |
+| | GMP, prices, dates, RHP link, lead manager |
+| 📋 **Active IPOs List** | `/ipos` - View all active & upcoming IPOs |
+| 📈 **Market Summary** | `/today` - Daily market snapshot |
+| 💼 **Daily Bulk Deals** | 7:30 PM IST (Weekdays) |
 | | Large trades in new IPOs (last 15 days) |
-| 🆕 **IPO Alerts** | Real-time notifications |
-| | New IPO announcements and updates |
+
+**[See all free features →](FREE_FEATURES.md)**
 
 ### 💎 PREMIUM (Paid Subscription)
 
 Everything in FREE, **plus**:
 
-- 📊 **Live Result Updates** - Near real-time result notifications
-- 💼 **Live Bulk Deals of New IPOs** - Near real-time bulk deals notifications
-- 📈 **[Trading Sessions](EXAMPLES.md#-trading-sessions-alerts)** - Pre/post-market movement alerts
-- 🔓 **[Anchor Unlocks](EXAMPLES.md#-anchor-unlock-alerts-30-day-lock-in)** - Lock-in period expiry alerts
-- 🔍 **[Pre-IPO Unlock Notifications](EXAMPLES.md#-pre-ipo-unlock-notifications-1-year-lock-in)** - Get notified before anchor lock-ins expire
-- 💼 **[Query Bulk Deals](EXAMPLES.md#-query-bulk-deals)** - Search and analyze bulk deal data on demand
-- 📊 **[Query Results](EXAMPLES.md#-live-result-updates)** - View result expectations for any company
+- 📊 **[Live Result Updates](EXAMPLES.md#-live-result-updates)** - Near real-time result notifications with expectations
+- 💼 **[Query Bulk Deals](EXAMPLES.md#-query-bulk-deals)** - Search and analyze bulk deal data on demand for any stock
+- 🌟 **[VIP/HNI Bulk Deal Alerts](EXAMPLES.md#-viphni-bulk-deal-alerts-new)** - Automatic alerts when VIP clients trade (NEW!)
+- 🎯 **[Anchor Entry/Exit Alerts](EXAMPLES.md#-anchor-entryexit-alerts-new)** - Real-time anchor investor tracking (NEW!)
+- 📈 **[Trading Sessions](EXAMPLES.md#-trading-sessions-alerts)** - SME IPOs approaching 10th trading session
+- 🔓 **[Anchor Unlocks (30-day)](EXAMPLES.md#-anchor-unlock-alerts-30-day-lock-in)** - 30-day lock-in period expiry alerts
+- 🔓 **[Anchor Unlocks (90-day)](EXAMPLES.md#-anchor-unlock-alerts-90-day-lock-in)** - 90-day lock-in period expiry alerts
+- 🔍 **[Pre-IPO Unlock Notifications](EXAMPLES.md#-pre-ipo-unlock-notifications-1-year-lock-in)** - 1-year lock-in expiry tracking
 - ⭐ **[Early Access](EXAMPLES.md#-early-access-to-new-features)** - New features before everyone else
 
-**[See command examples →](EXAMPLES.md)**
+**[See all premium examples →](EXAMPLES.md)**
 
 ---
 
@@ -88,12 +99,26 @@ Everything in FREE, **plus**:
 
 ## 📱 Essential Commands
 
+### Free Commands (Everyone)
 ```
 /start      - Begin receiving updates
-/premium    - View & subscribe to premium
-/status     - Check subscription status
+/ipo NAME   - Get IPO details (GMP, prices, dates, RHP)
+/ipos       - View all active & upcoming IPOs
+/today      - Today's market summary
 /help       - See all commands
+/status     - Check subscription status
 /settings   - Customize preferences
+```
+
+### Premium Commands
+```
+/results SYMBOL      - Query result dates & expectations
+/deals SYMBOL        - Query bulk deals for any stock
+/trading_session     - SME IPO trading session alerts
+/anchor_1m           - 30-day anchor unlock notifications
+/anchor_3m           - 90-day anchor unlock notifications
+/preipo_unlock       - 1-year pre-IPO unlock alerts
+/premium             - View & subscribe to premium
 ```
 
 ---
