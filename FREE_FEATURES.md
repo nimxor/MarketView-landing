@@ -159,7 +159,6 @@ Search and get detailed information about any IPO - past, present, or upcoming!
 🔗 USEFUL LINKS
 
 📄 View RHP Document
-🌐 View on ipostream.in
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━
 
