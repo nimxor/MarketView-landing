@@ -484,6 +484,87 @@ Premium users receive automated alerts 30 days before 1-year pre-IPO unlocks.
 
 ---
 
+## 📅 Query Unlock Dates for Any IPO
+
+**Command**: `/unlock SYMBOL or COMPANY NAME`
+
+Get all anchor unlock dates (30-day, 90-day, and 1-year) for any listed IPO instantly!
+
+### Examples
+
+```
+/unlock PREMIERENE
+/unlock Premier Energies
+/unlock WAAREE
+/unlock Orkla India
+```
+
+### Sample Response
+
+```
+🔓 Anchor Unlock Dates
+
+PREMIERENE
+Premier Energies Limited
+
+📅 Listing Date: 03 Sep 2024
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🔸 1 Month Anchor Unlock
+📆 03 Oct 2024
+✅ Unlocked (29 days ago)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🔹 3 Month Anchor Unlock
+📆 02 Dec 2024
+⏳ In 32 days
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🔺 Pre-IPO Unlock (1 Year)
+📆 03 Sep 2025
+⏳ In 307 days
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Unlock dates are approximate and based on listing date
+```
+
+### What You Get
+
+- **All unlock dates** in one place (30-day, 90-day, 1-year)
+- **Unlock status** - Already unlocked or days remaining
+- **Listing date** for reference
+- **Smart search** - Works with symbol or company name
+- **Instant calculation** - No need to calculate manually
+- **Historical tracking** - Shows when unlocks already happened
+
+### Use Cases
+
+1. **Planning trades** - Know when selling pressure might come
+2. **Risk assessment** - Check all unlock dates before investing
+3. **Exit strategy** - Plan exits before major unlocks
+4. **Quick lookup** - Instantly see all unlock dates
+5. **Historical analysis** - See which unlocks already passed
+
+### Unlock Status Indicators
+
+- ✅ **Unlocked** - Already passed (shows days ago)
+- 🔔 **Unlocking Today!** - Happening today
+- ⏳ **In X days** - Future unlock date
+
+### Smart Fuzzy Matching
+
+Just like other commands, `/unlock` supports fuzzy search:
+
+```
+/unlock PREMIERENE         → Exact symbol match
+/unlock Premier            → Partial name match
+/unlock Premier Energies   → Full name match
+/unlock WAAREE            → Symbol
+/unlock Waaree Energies   → Name
+```
+
+---
+
 ## ⭐ Early Access to New Features
 
 Premium subscribers get **first access** to all new features before they're released to free users.
@@ -494,6 +575,7 @@ All the features above were initially released to premium users as early access:
 
 - **Query Results** (`/results`) - Query any stock's upcoming results
 - **Query Bulk Deals** (`/deals`) - Search bulk deals for any stock
+- **Query Unlock Dates** (`/unlock`) - Get all unlock dates for any IPO
 - **Trading Sessions** (`/trading_session`) - SME circuit filter alerts
 - **Anchor Unlocks** (`/anchor_1m`, `/anchor_3m`) - Lock-in expiry tracking
 - **Pre-IPO Unlocks** (`/preipo_unlock`) - 1-year unlock notifications
@@ -509,7 +591,7 @@ Premium users will get early access to:
 
 ## 🎯 Smart Fuzzy Matching
 
-All query commands (`/results` and `/deals`) support **fuzzy matching** for easy searching.
+All query commands (`/results`, `/deals`, and `/unlock`) support **fuzzy matching** for easy searching.
 
 ### How It Works
 
@@ -582,6 +664,7 @@ Once your premium subscription is active, you can use any of these commands:
 **Query Commands** (On-Demand):
 - `/results SYMBOL` - Check result dates
 - `/deals SYMBOL` - Check bulk deals
+- `/unlock SYMBOL` - Get all unlock dates
 - `/trading_session` - View trading sessions
 - `/anchor_1m` - View 30-day unlocks
 - `/anchor_3m` - View 90-day unlocks
