@@ -52,6 +52,8 @@ Real command examples for all premium features with sample responses and usage t
 | 📈 **Market Summary** | `/today` - Daily market snapshot |
 | 💼 **Daily Bulk Deals** | 7:30 PM IST (Weekdays) |
 | | Large trades in new IPOs (last 15 days) |
+| 🔸 **Daily ESM Updates** | 7:30 PM IST (Weekdays) - NSE/BSE |
+| | Enhanced Surveillance Measure alerts |
 
 **[See all free features →](FREE_FEATURES.md)**
 
@@ -62,6 +64,7 @@ Everything in FREE, **plus**:
 - 📊 **[Live Result Updates](EXAMPLES.md#-live-result-updates)** - Near real-time result notifications with expectations
 - 💼 **[Query Bulk Deals](EXAMPLES.md#-query-bulk-deals)** - Search and analyze bulk deal data on demand for any stock
 - 📅 **[Query Unlock Dates](EXAMPLES.md#-query-unlock-dates-for-any-ipo)** - Get all anchor unlock dates (30d, 90d, 1y) for any IPO
+- 🔸 **[Query ESM History](EXAMPLES.md#-esm-surveillance-history)** - Complete Enhanced Surveillance Measure history for any stock
 - 🌟 **[VIP/HNI Bulk Deal Alerts](EXAMPLES.md#-viphni-bulk-deal-alerts-new)** - Automatic alerts when VIP clients trade (NEW!)
 - 🎯 **[Anchor Entry/Exit Alerts](EXAMPLES.md#-anchor-entryexit-alerts-new)** - Real-time anchor investor tracking (NEW!)
 - 📈 **[Trading Sessions](EXAMPLES.md#-trading-sessions-alerts)** - SME IPOs approaching 10th trading session
@@ -116,6 +119,7 @@ Everything in FREE, **plus**:
 /results SYMBOL      - Query result dates & expectations
 /deals SYMBOL        - Query bulk deals for any stock
 /unlock SYMBOL       - Get all unlock dates (30d, 90d, 1y)
+/esm SYMBOL          - ESM history & surveillance status
 /trading_session     - SME IPO trading session alerts
 /anchor_1m           - 30-day anchor unlock notifications
 /anchor_3m           - 90-day anchor unlock notifications

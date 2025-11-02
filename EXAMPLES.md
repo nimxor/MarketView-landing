@@ -565,6 +565,169 @@ Just like other commands, `/unlock` supports fuzzy search:
 
 ---
 
+## 🔸 ESM Surveillance History
+
+**Command**: `/esm SYMBOL or COMPANY NAME`
+
+Get complete Enhanced Surveillance Measure (ESM) history for any stock - track all surveillance stages, movements, and exits!
+
+### What is ESM?
+
+ESM (Enhanced Surveillance Measure) is a surveillance framework used by NSE and BSE to monitor stocks showing unusual price movements or trading patterns. Stocks under ESM face additional restrictions to protect investors.
+
+**ESM Stages:**
+- **ESM Stage 1**: First-level surveillance with additional price bands
+- **ESM Stage 2**: Stricter surveillance with trade-for-trade settlement
+- **ESM2 → ESM1**: Stock improved, moved from Stage 2 back to Stage 1
+- **Exit ESM**: Stock removed from surveillance completely
+
+### Examples
+
+```
+/esm RELIANCE
+/esm Reliance Industries
+/esm 540145
+/esm Tata Steel
+/esm TATASTEEL
+```
+
+### Sample Response - NSE Stock
+
+```
+🔸 ESM History
+
+TATASTEEL
+Tata Steel Limited
+
+━━━━━━━━━━━━━━━━━━━━━━
+NSE Exchange (8 events)
+━━━━━━━━━━━━━━━━━━━━━━
+
+📅 15 Sep 2024
+🔸 ESM Stage 1 Entry
+
+📅 22 Sep 2024
+🔹 ESM Stage 2 Entry
+
+📅 10 Oct 2024
+🔄 ESM2 → ESM1
+
+📅 31 Oct 2024
+✅ Exit ESM
+
+━━━━━━━━━━━━━━━━━━━━━━
+Total ESM Events: 8
+Period: Sep 2024 - Oct 2024
+```
+
+### Sample Response - BSE Stock
+
+```
+🔸 ESM History
+
+540145
+Reliance Industries Limited
+
+━━━━━━━━━━━━━━━━━━━━━━
+BSE Exchange (5 events)
+━━━━━━━━━━━━━━━━━━━━━━
+
+📅 01 Sep 2024
+🔸 ESM Stage 1 Entry
+
+📅 15 Sep 2024
+🔹 ESM Stage 2 Entry
+_Effective from: 16 Sep 2024_
+
+📅 01 Oct 2024
+🔄 ESM2 → ESM1
+
+📅 15 Oct 2024
+✅ Exit ESM
+
+━━━━━━━━━━━━━━━━━━━━━━
+Total ESM Events: 5
+Period: Sep 2024 - Oct 2024
+```
+
+### What You Get
+
+- 📊 **Complete History**: All ESM events for a stock from Sept 2024 onwards
+- 📅 **Chronological Order**: Events sorted by date (oldest to newest)
+- 🔍 **Detailed Info**: Event dates, effective dates, action types
+- 🌍 **Multi-Exchange**: Separate sections for NSE and BSE
+- 📈 **Status Tracking**: See if stock entered, exited, or moved between stages
+- 🔸 **Risk Assessment**: Understand stock's surveillance history before investing
+
+### Use Cases
+
+1. **Pre-Investment Research**: Check if stock has ESM history before buying
+2. **Risk Management**: Track if your holdings ever entered ESM
+3. **Trading Decisions**: Avoid stocks with frequent ESM entries
+4. **Exit Planning**: Know when stocks typically exit ESM
+5. **Pattern Analysis**: Identify stocks with recurring surveillance issues
+6. **Compliance Tracking**: Monitor regulatory actions on stocks
+
+### ESM Stage Impact
+
+**ESM Stage 1:**
+- Additional price bands (5-10%)
+- Higher margin requirements
+- Increased exchange scrutiny
+- Daily surveillance monitoring
+
+**ESM Stage 2:**
+- Stricter price bands (2-5%)
+- **Trade-for-trade** settlement (no intraday)
+- **100% margin** required upfront
+- **Physical delivery** mandatory
+- Cannot use for F&O trading
+- Higher transaction costs
+
+### Smart Fuzzy Matching
+
+The `/esm` command supports smart search for both NSE and BSE stocks:
+
+**NSE Stocks (Alphabetic Symbols):**
+```
+/esm RELIANCE          → Exact symbol match
+/esm Reliance          → Company name search
+/esm Reliance Industries → Full name match
+```
+
+**BSE Stocks (Numeric Scrip Codes):**
+```
+/esm 540145            → Direct scrip code match
+/esm Reliance          → Searches by company name
+/esm Reliance Industries → Full company name
+```
+
+### Tips
+
+💡 **Check Before Buying**: Always check ESM history before investing in a stock
+💡 **Free Daily Updates**: Get automatic ESM updates for all stocks at 7:30 PM IST (free feature)
+💡 **Stage 2 Warning**: Stocks in ESM Stage 2 have severe trading restrictions
+💡 **Exit Timing**: Stocks exiting ESM may see improved liquidity and lower volatility
+💡 **Historical Patterns**: Frequent ESM entries indicate high-risk stocks
+💡 **BSE Search**: For BSE stocks, search by company name if you don't know the scrip code
+
+### Why ESM Matters
+
+1. **Trading Restrictions**: ESM stocks have additional trading constraints
+2. **Higher Costs**: Increased margins and delivery requirements
+3. **Risk Indicator**: ESM placement signals unusual trading activity
+4. **Liquidity Impact**: ESM stocks may have lower liquidity
+5. **Price Discovery**: Trade-for-trade settlement affects price discovery
+6. **Investment Decision**: Important factor in buy/sell decisions
+
+### Related Features
+
+- **Free Daily ESM Updates**: Get automatic daily notifications at 7:30 PM IST (all users)
+- **Historical Data**: Complete ESM history from September 2024 onwards
+- **Multi-Exchange**: Covers both NSE and BSE surveillance measures
+
+---
+
 ## ⭐ Early Access to New Features
 
 Premium subscribers get **first access** to all new features before they're released to free users.
@@ -576,6 +739,7 @@ All the features above were initially released to premium users as early access:
 - **Query Results** (`/results`) - Query any stock's upcoming results
 - **Query Bulk Deals** (`/deals`) - Search bulk deals for any stock
 - **Query Unlock Dates** (`/unlock`) - Get all unlock dates for any IPO
+- **Query ESM History** (`/esm`) - Complete surveillance history for any stock
 - **Trading Sessions** (`/trading_session`) - SME circuit filter alerts
 - **Anchor Unlocks** (`/anchor_1m`, `/anchor_3m`) - Lock-in expiry tracking
 - **Pre-IPO Unlocks** (`/preipo_unlock`) - 1-year unlock notifications
@@ -591,7 +755,7 @@ Premium users will get early access to:
 
 ## 🎯 Smart Fuzzy Matching
 
-All query commands (`/results`, `/deals`, and `/unlock`) support **fuzzy matching** for easy searching.
+All query commands (`/results`, `/deals`, `/unlock`, and `/esm`) support **fuzzy matching** for easy searching.
 
 ### How It Works
 
@@ -665,6 +829,7 @@ Once your premium subscription is active, you can use any of these commands:
 - `/results SYMBOL` - Check result dates
 - `/deals SYMBOL` - Check bulk deals
 - `/unlock SYMBOL` - Get all unlock dates
+- `/esm SYMBOL` - Check ESM surveillance history
 - `/trading_session` - View trading sessions
 - `/anchor_1m` - View 30-day unlocks
 - `/anchor_3m` - View 90-day unlocks

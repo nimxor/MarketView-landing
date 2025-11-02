@@ -607,6 +607,125 @@ Fast and easy!
 
 ---
 
+## 🔸 Daily ESM Updates
+
+**Trigger**: Automatic daily at 7:30 PM IST (Weekdays)
+
+Get daily Enhanced Surveillance Measure (ESM) updates for both NSE and BSE stocks - completely free!
+
+### What is ESM?
+
+ESM (Enhanced Surveillance Measure) is a framework used by stock exchanges to monitor stocks that show unusual price movements or trading patterns. Exchanges place stocks under surveillance to protect investors from excessive volatility.
+
+**Two ESM Stages:**
+- **ESM Stage 1**: First level surveillance - stocks show abnormal trading activity
+- **ESM Stage 2**: Stricter surveillance - stocks continue to show concerning patterns
+
+### What Triggers Notifications
+
+✅ **ESM Stage 1 Entry** - Stock enters first level surveillance
+✅ **ESM Stage 2 Entry** - Stock enters stricter surveillance
+✅ **ESM2 → ESM1 Movement** - Stock moved from Stage 2 back to Stage 1
+✅ **ESM Exit** - Stock removed from surveillance framework
+
+### Sample ESM Notification
+
+```
+🔸 ESM Updates - 31 Oct 2025
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+NSE Exchange (17 stocks)
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔸 ESM Stage 1 Entry (3)
+• EXAMPLE1
+• EXAMPLE2
+• EXAMPLE3
+
+🔄 ESM2 → ESM1 (7)
+• STOCK1
+• STOCK2
+• STOCK3
+• STOCK4
+• STOCK5
+• STOCK6
+• STOCK7
+
+✅ Exit ESM (7)
+• FREED1
+• FREED2
+• FREED3
+• FREED4
+• FREED5
+• FREED6
+• FREED7
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+BSE Exchange (54 stocks)
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔸 ESM Stage 1 Entry (2)
+• 540145 - Reliance Industries
+• 500325 - Tata Steel
+
+🔹 ESM Stage 2 Entry (2)
+• 532174 - ICICI Bank
+• 500180 - HDFC Bank
+
+🔄 ESM2 → ESM1 (25)
+• [List of stocks...]
+
+✅ Exit ESM (25)
+• [List of stocks...]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 Total Updates: 71 stocks
+```
+
+### What You Get
+
+- 📅 **Daily Updates**: Automatic notifications every trading day at 7:30 PM IST
+- 🔍 **Complete Coverage**: Both NSE and BSE stocks
+- 📊 **Categorized**: Clear grouping by action type (Entry, Exit, Movement)
+- ⚡ **Real-time**: Same-day updates from exchange circulars
+- 🆓 **Free**: No premium subscription needed
+
+### Why It Matters
+
+1. **Risk Awareness**: Know when stocks you track enter surveillance
+2. **Trading Decisions**: ESM stocks have additional trading restrictions
+3. **Exit Indicators**: Track when stocks are removed from surveillance
+4. **Market Insight**: Understand which stocks are showing unusual patterns
+
+### Use Cases
+
+1. **Portfolio Monitoring**: Check if your holdings are under ESM
+2. **Pre-Trade Due Diligence**: Avoid buying stocks under strict surveillance
+3. **Exit Planning**: Know when it's safer to exit ESM stocks
+4. **Market Analysis**: Track overall market volatility patterns
+
+### ESM Impact on Trading
+
+**For ESM Stage 1:**
+- Additional price bands may apply
+- Higher margin requirements
+- Increased scrutiny from exchanges
+
+**For ESM Stage 2:**
+- Even stricter price bands
+- Trade-for-trade settlement (no intraday)
+- Physical delivery mandatory
+- Cannot use for derivatives
+
+### Tips
+
+💡 **Stay Informed**: Check daily notifications to track surveillance changes
+💡 **Premium Benefit**: Upgrade to premium for `/esm SYMBOL` command to check any stock's complete ESM history
+💡 **Research First**: ESM stocks require extra caution before trading
+💡 **Monitor Exits**: Stocks exiting ESM may indicate improving conditions
+
+---
+
 ## 🚀 Ready to Get Started?
 
 Visit [@marketview_ipostream_bot](https://t.me/marketview_ipostream_bot) and send `/start`!
@@ -620,6 +739,7 @@ All features above are **100% FREE** - no credit card required!
 Upgrade to **Premium** for:
 - Results calendar with expectations
 - Bulk deals query for any stock
+- ESM history query for any stock (`/esm SYMBOL`)
 - VIP/HNI bulk deal alerts
 - Anchor buy/sell tracking
 - Trading session alerts

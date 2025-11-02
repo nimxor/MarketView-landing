@@ -27,6 +27,7 @@
 | `/results SYMBOL` | Query result dates & expectations |
 | `/deals SYMBOL` | Query bulk deals for any stock |
 | `/unlock SYMBOL` | Get all unlock dates (30d, 90d, 1y) |
+| `/esm SYMBOL` | ESM history & surveillance status |
 | `/premium` | View & subscribe to premium plans |
 
 ---
@@ -58,6 +59,11 @@
 - **What**: Large trades in new IPOs (last 15 days)
 - **Includes**: Buyer/seller names, quantities, values
 
+### 🔸 Daily ESM Updates
+- **Timing**: Daily 7:30 PM IST (Weekdays)
+- **What**: Enhanced Surveillance Measure updates (NSE/BSE)
+- **Includes**: ESM1/ESM2 entries, stage movements, exits
+
 **[See all free features →](FREE_FEATURES.md)**
 
 ---
@@ -69,6 +75,7 @@ Everything in FREE **plus**:
 - 📊 **Live Result Updates**: Near real-time result notifications with expectations
 - 💼 **Query Bulk Deals**: Search and analyze bulk deal data on demand for any stock
 - 📅 **Query Unlock Dates**: Get all anchor unlock dates (30d, 90d, 1y) for any IPO
+- 🔸 **Query ESM History**: Complete Enhanced Surveillance Measure history for any stock
 - 🌟 **VIP/HNI Bulk Deal Alerts**: Automatic alerts when VIP clients trade (NEW!)
 - 🎯 **Anchor Entry/Exit Alerts**: Real-time anchor investor tracking (NEW!)
 - 📈 **Trading Sessions**: SME IPOs approaching 10th trading session
