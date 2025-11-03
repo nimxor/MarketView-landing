@@ -105,48 +105,37 @@ Query and filter quarterly results scheduled for a specific date by exchange and
 ### Sample Response
 
 ```
-╔══════════════════════════╗
-  🟢 Strong Positive
-╚══════════════════════════╝
+  ╔══════════════════════════╗
+    🟢 Strong Positive
+  ╚══════════════════════════╝
 
-📅 Date: 05 Nov 2025
-📈 Total: 12 companies
+  📅 Date: 05 Nov 2025
+  📈 Total: 12 companies
 
-━━━━━━━━━━━━━━━━━━━━━━━━━
+  ━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🏢 MAINBOARD (8 companies)
+  🏢 MAINBOARD (8 companies)
 
-🟢 RELIANCE
-   Reliance Industries
-   PAT: ₹18,500.00 Cr | YoY: +24.5% | QoQ: +12.3%
+  Reliance Industries Limited
+  Tata Consultancy Services
+  Infosys Limited
+  HDFC Bank Limited
+  ICICI Bank Limited
+  Bharti Airtel Limited
+  State Bank of India
+  Larsen & Toubro Limited
 
-🟢 TCS
-   Tata Consultancy Services
-   PAT: ₹11,200.00 Cr | YoY: +31.2% | QoQ: +8.7%
+  ━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🟢 INFY
-   Infosys Limited
-   PAT: ₹6,800.00 Cr | YoY: +22.8%
+  🏪 SME (4 companies)
 
-...and 5 more mainboard companies
-
-━━━━━━━━━━━━━━━━━━━━━━━━━
-🏪 SME (4 companies)
-
-🟢 ABCTECH
-   ABC Technologies
-   PAT: ₹45.50 Cr | YoY: +28.5%
-
-...and 3 more SME companies
-
-━━━━━━━━━━━━━━━━━━━━━━━━━
-📊 LEGEND
-━━━━━━━━━━━━━━━━━━━━━━━━━
-🟢 Strong Positive (YoY > 20%)
-🟡 Good Expected (YoY 0-20%)
-⚪ Neutral (No data)
-🔴 Weak (YoY < 0%)
+  ABC Technologies Limited
+  XYZ Manufacturing Limited
+  PQR Solutions Limited
+  LMN Industries Limited
 ```
+
+**Note:** All company names are clickable links to Screener.in for detailed analysis.
 
 ### What You Get
 - Filter by specific date (DD-MM-YYYY format)
@@ -154,9 +143,9 @@ Query and filter quarterly results scheduled for a specific date by exchange and
 - Filter by expectation type (strong/good/neutral/weak/all)
 - Combine exchange and type filters for precise targeting
 - Grouped by mainboard and SME
-- Shows PAT, YoY growth, and QoQ growth
-- Clickable links to Screener.in for detailed company info
-- Quick overview of result expectations for a trading day
+- Clean list of company names (no clutter)
+- All company names are clickable links to Screener.in
+- Quick overview of which companies have results on a specific day
 - Plan your trades based on upcoming results
 
 ### Use Cases
