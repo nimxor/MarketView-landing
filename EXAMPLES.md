@@ -49,6 +49,96 @@ Strong performance anticipated
 
 ---
 
+## 📈 Filter Results by Date and Type
+
+**Command**: `/result_on_date DD-MM-YYYY TYPE`
+
+Query and filter quarterly results scheduled for a specific date by expectation type.
+
+### Examples
+
+```
+/result_on_date 05-11-2025 strong
+/result_on_date 10-11-2025 good
+/result_on_date 15-11-2025 all
+/result_on_date 20-11-2025 weak
+```
+
+### Available Result Types
+
+- **`strong`** - Strong Positive (YoY growth > 20%)
+- **`good`** - Good Expected (YoY growth 0-20%)
+- **`neutral`** - Neutral (missing data)
+- **`weak`** - Weak (YoY growth < 0%)
+- **`all`** - Show all results for the date
+
+### Sample Response
+
+```
+╔══════════════════════════╗
+  🟢 Strong Positive
+╚══════════════════════════╝
+
+📅 Date: 05 Nov 2025
+📈 Total: 12 companies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏢 MAINBOARD (8 companies)
+
+🟢 RELIANCE
+   Reliance Industries
+   PAT: ₹18,500.00 Cr | YoY: +24.5% | QoQ: +12.3%
+
+🟢 TCS
+   Tata Consultancy Services
+   PAT: ₹11,200.00 Cr | YoY: +31.2% | QoQ: +8.7%
+
+🟢 INFY
+   Infosys Limited
+   PAT: ₹6,800.00 Cr | YoY: +22.8%
+
+...and 5 more mainboard companies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🏪 SME (4 companies)
+
+🟢 ABCTECH
+   ABC Technologies
+   PAT: ₹45.50 Cr | YoY: +28.5%
+
+...and 3 more SME companies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 LEGEND
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🟢 Strong Positive (YoY > 20%)
+🟡 Good Expected (YoY 0-20%)
+⚪ Neutral (No data)
+🔴 Weak (YoY < 0%)
+```
+
+### What You Get
+- Filter by specific date (DD-MM-YYYY format)
+- Filter by expectation type (strong/good/neutral/weak/all)
+- Grouped by mainboard and SME
+- Shows PAT, YoY growth, and QoQ growth
+- Quick overview of result expectations for a trading day
+- Plan your trades based on upcoming results
+
+### Use Cases
+- **Pre-Market Planning**: Check strong results for the day
+- **Earnings Season**: Track multiple results on busy days
+- **Filter Weak Results**: Identify companies with poor expectations
+- **All Results View**: See complete result calendar for any date
+
+### Tips
+- Use `strong` filter before market opens to spot potential movers
+- Check `all` results on Fridays for weekend analysis
+- Compare `good` vs `weak` counts to gauge market sentiment
+
+---
+
 ## 💼 Query Bulk Deals
 
 **Command**: `/deals SYMBOL`

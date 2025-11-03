@@ -62,6 +62,7 @@ Real command examples for all premium features with sample responses and usage t
 Everything in FREE, **plus**:
 
 - 📊 **[Live Result Updates](EXAMPLES.md#-live-result-updates)** - Near real-time result notifications with expectations
+- 📈 **[Filter Results by Date](EXAMPLES.md#-filter-results-by-date-and-type)** - Query results by specific date and expectation type
 - 💼 **[Query Bulk Deals](EXAMPLES.md#-query-bulk-deals)** - Search and analyze bulk deal data on demand for any stock
 - 📅 **[Query Unlock Dates](EXAMPLES.md#-query-unlock-dates-for-any-ipo)** - Get all anchor unlock dates (30d, 90d, 1y) for any IPO
 - 🔸 **[Query ESM History](EXAMPLES.md#-esm-surveillance-history)** - Complete Enhanced Surveillance Measure history for any stock
@@ -116,10 +117,11 @@ Everything in FREE, **plus**:
 
 ### Premium Commands
 ```
-/results SYMBOL      - Query result dates & expectations
-/deals SYMBOL        - Query bulk deals for any stock
-/unlock SYMBOL       - Get all unlock dates (30d, 90d, 1y)
-/esm SYMBOL          - ESM history & surveillance status
+/results SYMBOL           - Query result dates & expectations
+/result_on_date DATE TYPE - Filter results by date & type
+/deals SYMBOL             - Query bulk deals for any stock
+/unlock SYMBOL            - Get all unlock dates (30d, 90d, 1y)
+/esm SYMBOL               - ESM history & surveillance status
 /trading_session     - SME IPO trading session alerts
 /anchor_1m           - 30-day anchor unlock notifications
 /anchor_3m           - 90-day anchor unlock notifications

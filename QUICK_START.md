@@ -25,6 +25,7 @@
 | Command | What it does |
 |---------|-------------|
 | `/results SYMBOL` | Query result dates & expectations |
+| `/result_on_date DATE TYPE` | Filter results by date & type |
 | `/deals SYMBOL` | Query bulk deals for any stock |
 | `/unlock SYMBOL` | Get all unlock dates (30d, 90d, 1y) |
 | `/esm SYMBOL` | ESM history & surveillance status |
@@ -73,6 +74,7 @@
 Everything in FREE **plus**:
 
 - 📊 **Live Result Updates**: Near real-time result notifications with expectations
+- 📈 **Filter Results by Date**: Query results by specific date and expectation type
 - 💼 **Query Bulk Deals**: Search and analyze bulk deal data on demand for any stock
 - 📅 **Query Unlock Dates**: Get all anchor unlock dates (30d, 90d, 1y) for any IPO
 - 🔸 **Query ESM History**: Complete Enhanced Surveillance Measure history for any stock
