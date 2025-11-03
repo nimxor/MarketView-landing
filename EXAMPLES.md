@@ -51,12 +51,21 @@ Strong performance anticipated
 
 ## 📈 Filter Results by Date and Type
 
-**Command**: `/result_on_date DD-MM-YYYY TYPE`
+**Command**: `/result_on_date DD-MM-YYYY [EXCHANGE] [TYPE]`
 
-Query and filter quarterly results scheduled for a specific date by expectation type.
+Query and filter quarterly results scheduled for a specific date by exchange and/or expectation type.
+
+### Command Formats
+
+```
+/result_on_date DATE TYPE          - Filter by result type
+/result_on_date DATE EXCHANGE      - Filter by exchange only
+/result_on_date DATE EXCHANGE TYPE - Filter by both exchange and type
+```
 
 ### Examples
 
+**Filter by Result Type:**
 ```
 /result_on_date 05-11-2025 strong
 /result_on_date 10-11-2025 good
@@ -64,8 +73,29 @@ Query and filter quarterly results scheduled for a specific date by expectation 
 /result_on_date 20-11-2025 weak
 ```
 
-### Available Result Types
+**Filter by Exchange:**
+```
+/result_on_date 05-11-2025 sme
+/result_on_date 05-11-2025 mainboard
+```
 
+**Filter by Both Exchange and Type:**
+```
+/result_on_date 05-11-2025 sme strong
+/result_on_date 05-11-2025 sme good
+/result_on_date 05-11-2025 sme neutral
+/result_on_date 05-11-2025 mainboard strong
+/result_on_date 05-11-2025 mainboard good
+/result_on_date 05-11-2025 mainboard neutral
+```
+
+### Available Filters
+
+**Exchanges:**
+- **`mainboard`** - NSE/BSE mainboard stocks only
+- **`sme`** - SME platform stocks only
+
+**Result Types:**
 - **`strong`** - Strong Positive (YoY growth > 20%)
 - **`good`** - Good Expected (YoY growth 0-20%)
 - **`neutral`** - Neutral (missing data)
@@ -120,22 +150,31 @@ Query and filter quarterly results scheduled for a specific date by expectation 
 
 ### What You Get
 - Filter by specific date (DD-MM-YYYY format)
+- Filter by exchange (mainboard/SME)
 - Filter by expectation type (strong/good/neutral/weak/all)
+- Combine exchange and type filters for precise targeting
 - Grouped by mainboard and SME
 - Shows PAT, YoY growth, and QoQ growth
+- Clickable links to Screener.in for detailed company info
 - Quick overview of result expectations for a trading day
 - Plan your trades based on upcoming results
 
 ### Use Cases
 - **Pre-Market Planning**: Check strong results for the day
+- **SME Focus**: Use `/result_on_date DATE sme` to see only SME results
+- **Mainboard Only**: Filter mainboard stocks with `/result_on_date DATE mainboard`
+- **Targeted Search**: Combine filters like `/result_on_date DATE sme strong` for SME stocks with strong growth
 - **Earnings Season**: Track multiple results on busy days
 - **Filter Weak Results**: Identify companies with poor expectations
 - **All Results View**: See complete result calendar for any date
 
 ### Tips
 - Use `strong` filter before market opens to spot potential movers
+- Check `sme strong` for high-growth SME opportunities
+- Use `mainboard good` for safer large-cap plays
 - Check `all` results on Fridays for weekend analysis
 - Compare `good` vs `weak` counts to gauge market sentiment
+- Filter by exchange when you have specific portfolio constraints
 
 ---
 
