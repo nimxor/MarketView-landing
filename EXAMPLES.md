@@ -683,6 +683,205 @@ Just like other commands, `/unlock` supports fuzzy search:
 
 ---
 
+## ⚓ Query Anchor Investors
+
+**Command**: `/anchor SYMBOL or COMPANY NAME`
+
+View the complete list of anchor investors for any IPO with allocation details.
+
+### Examples
+
+```
+/anchor PREMIERENE
+/anchor Premier Energies
+/anchor WAAREE
+/anchor Swiggy
+```
+
+### Sample Response
+
+```
+⚓ Anchor Investors
+
+PREMIERENE
+Premier Energies Limited
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 Summary
+├ Total Anchors: 56
+├ Total Allocation: ₹1,342.50 Cr
+└ Anchor Price: ₹450.00
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+📈 By Type
+
+🏦 Mutual Funds: 28 investors (₹756.25 Cr)
+🏢 Insurance: 8 investors (₹285.50 Cr)
+🌍 FII: 12 investors (₹198.75 Cr)
+💼 Others: 8 investors (₹102.00 Cr)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🏆 Top 15 Investors
+
+1. HDFC Mutual Fund - ₹125.50 Cr
+2. SBI Mutual Fund - ₹98.25 Cr
+3. ICICI Prudential MF - ₹87.50 Cr
+...
+```
+
+### What You Get
+
+- **Complete anchor list** with allocation amounts
+- **Summary statistics**: Total anchors, total allocation, anchor price
+- **Breakdown by investor type**: MFs, Insurance, FIIs, Others
+- **Top 15 investors** by allocation amount
+- **Smart search**: Works with symbol or company name
+
+### Use Cases
+
+1. **Pre-investment research**: Check who invested as anchors
+2. **Quality signal**: Strong anchor participation indicates confidence
+3. **Unlock planning**: Know who might sell after lock-in
+4. **Pattern analysis**: Compare anchor participation across IPOs
+
+---
+
+## 🔍 Anchor Portfolio Lookup
+
+**Command**: `/anchor_info INVESTOR NAME`
+
+Search any anchor investor's complete IPO investment history across all IPOs.
+
+### Examples
+
+```
+/anchor_info HDFC
+/anchor_info Saint Capital
+/anchor_info Rajasthan Global
+/anchor_info Goldman Sachs
+```
+
+### Sample Response
+
+```
+🏦 Anchor Investor Info
+
+HDFC MUTUAL FUND (3 entities)
+
+📊 Summary
+├ Total IPOs: 45
+└ Total Investment: ₹2,856.75 Cr
+
+📈 Recent Investments
+
+1. PREMIERENE Premier Energies
+   ₹125.50 Cr | 03 Sep 24
+
+2. WAAREE Waaree Energies
+   ₹98.25 Cr | 28 Oct 24
+
+3. SWIGGY Swiggy
+   ₹156.00 Cr | 13 Nov 24
+
+...and 42 more IPOs
+
+📋 Matching Entities
+• HDFC Mutual Fund
+• HDFC Life Insurance
+• HDFC Bank Limited
+```
+
+### What You Get
+
+- **Complete investment history** across all IPOs
+- **Summary**: Total IPOs invested, total investment amount
+- **Recent investments**: Last 15 IPO investments with details
+- **Entity grouping**: Groups similar names (HDFC Bank, HDFC MF, etc.)
+- **Partial search**: Search with partial name like "HDFC", "Saint", "SBI"
+
+### Use Cases
+
+1. **Track smart money**: See where top investors are putting money
+2. **Pattern analysis**: Identify investor preferences
+3. **Quality signal**: Repeated investments by same anchor
+4. **Due diligence**: Research investor track record
+
+---
+
+## 🏢 Lead Manager Portfolio
+
+**Command**: `/lm LEAD MANAGER NAME`
+
+View all IPOs managed by any lead manager with performance statistics.
+
+### Examples
+
+```
+/lm HDFC Bank
+/lm Emkay
+/lm Pantomath
+/lm SBI Capital
+/lm Axis Capital
+```
+
+### Sample Response
+
+```
+🏢 Lead Manager Info
+
+Pantomath Capital Advisors
+
+📊 Portfolio Summary
+├ Total IPOs: 89
+├ Listed: 72 | Active: 5 | Upcoming: 12
+├ Avg GMP: +18.5%
+└ Avg Listing Gains: +22.3%
+
+📈 Recent IPOs
+
+1. ✅ ABCTECH ABC Technologies
+   15 Nov 24 | +35.2%
+
+2. ✅ XYZIND XYZ Industries
+   10 Nov 24 | +18.5%
+
+3. 🟢 PQRSME PQR Solutions
+   TBA | GMP: +25.0%
+
+4. 📅 LMNIPO LMN Limited
+   20 Dec 24
+
+...and 85 more IPOs
+
+📋 Matching Entities
+• Pantomath Capital Advisors Private Limited
+• Pantomath Capital
+```
+
+### What You Get
+
+- **Portfolio summary**: Total IPOs, listed/active/upcoming breakdown
+- **Performance metrics**: Average GMP, average listing gains
+- **Recent IPOs**: Last 15 IPOs with status and performance
+- **Status indicators**: ✅ Listed, 🟢 Active, 📅 Upcoming
+- **Entity grouping**: Groups similar lead manager names
+
+### Use Cases
+
+1. **Manager reputation**: Check lead manager's track record
+2. **Performance analysis**: Compare avg gains across managers
+3. **IPO selection**: Prefer IPOs from successful managers
+4. **Research**: Understand manager's focus (SME vs Mainboard)
+
+### Status Indicators
+
+- ✅ **Listed**: IPO has listed, shows listing gains
+- 🟢 **Active**: IPO currently open for subscription
+- 📅 **Upcoming**: IPO announced but not yet open
+- ⏸️ **Other**: Withdrawn or delayed IPOs
+
+---
+
 ## 🔸 ESM Surveillance History
 
 **Command**: `/esm SYMBOL or COMPANY NAME`
@@ -857,6 +1056,9 @@ All the features above were initially released to premium users as early access:
 - **Query Results** (`/results`) - Query any stock's upcoming results
 - **Query Bulk Deals** (`/deals`) - Search bulk deals for any stock
 - **Query Unlock Dates** (`/unlock`) - Get all unlock dates for any IPO
+- **Query Anchor Investors** (`/anchor`) - View anchor list for any IPO
+- **Anchor Portfolio Lookup** (`/anchor_info`) - Search anchor investor's history
+- **Lead Manager Portfolio** (`/lm`) - View lead manager's IPO portfolio
 - **Query ESM History** (`/esm`) - Complete surveillance history for any stock
 - **Trading Sessions** (`/trading_session`) - SME circuit filter alerts
 - **Anchor Unlocks** (`/anchor_1m`, `/anchor_3m`) - Lock-in expiry tracking
@@ -873,7 +1075,7 @@ Premium users will get early access to:
 
 ## 🎯 Smart Fuzzy Matching
 
-All query commands (`/results`, `/deals`, `/unlock`, and `/esm`) support **fuzzy matching** for easy searching.
+All query commands (`/results`, `/deals`, `/unlock`, `/anchor`, `/anchor_info`, `/lm`, and `/esm`) support **fuzzy matching** for easy searching.
 
 ### How It Works
 
@@ -947,6 +1149,9 @@ Once your premium subscription is active, you can use any of these commands:
 - `/results SYMBOL` - Check result dates
 - `/deals SYMBOL` - Check bulk deals
 - `/unlock SYMBOL` - Get all unlock dates
+- `/anchor SYMBOL` - View anchor investor list
+- `/anchor_info NAME` - Search anchor portfolio
+- `/lm NAME` - View lead manager portfolio
 - `/esm SYMBOL` - Check ESM surveillance history
 - `/trading_session` - View trading sessions
 - `/anchor_1m` - View 30-day unlocks
@@ -1046,4 +1251,4 @@ Visit [@marketview_ipostream_bot](https://t.me/marketview_ipostream_bot) and sen
 
 ---
 
-**Last Updated**: October 2025
+**Last Updated**: December 2025

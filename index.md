@@ -65,6 +65,9 @@ Everything in FREE, **plus**:
 - 📈 **[Filter Results by Date](EXAMPLES.md#-filter-results-by-date-and-type)** - Query results by specific date and expectation type
 - 💼 **[Query Bulk Deals](EXAMPLES.md#-query-bulk-deals)** - Search and analyze bulk deal data on demand for any stock
 - 📅 **[Query Unlock Dates](EXAMPLES.md#-query-unlock-dates-for-any-ipo)** - Get all anchor unlock dates (30d, 90d, 1y) for any IPO
+- ⚓ **[Query Anchor Investors](EXAMPLES.md#-query-anchor-investors)** - View complete anchor investor list for any IPO
+- 🔍 **[Anchor Portfolio Lookup](EXAMPLES.md#-anchor-portfolio-lookup)** - Search any anchor investor's IPO investments
+- 🏢 **[Lead Manager Portfolio](EXAMPLES.md#-lead-manager-portfolio)** - View all IPOs managed by any lead manager
 - 🔸 **[Query ESM History](EXAMPLES.md#-esm-surveillance-history)** - Complete Enhanced Surveillance Measure history for any stock
 - 🌟 **[VIP/HNI Bulk Deal Alerts](EXAMPLES.md#-viphni-bulk-deal-alerts-new)** - Automatic alerts when VIP clients trade (NEW!)
 - 🎯 **[Anchor Entry/Exit Alerts](EXAMPLES.md#-anchor-entryexit-alerts-new)** - Real-time anchor investor tracking (NEW!)
@@ -121,6 +124,9 @@ Everything in FREE, **plus**:
 /result_on_date DATE TYPE - Filter results by date & type
 /deals SYMBOL             - Query bulk deals for any stock
 /unlock SYMBOL            - Get all unlock dates (30d, 90d, 1y)
+/anchor SYMBOL            - View anchor investor list for IPO
+/anchor_info NAME         - Search anchor investor's portfolio
+/lm NAME                  - View lead manager's IPO portfolio
 /esm SYMBOL               - ESM history & surveillance status
 /trading_session     - SME IPO trading session alerts
 /anchor_1m           - 30-day anchor unlock notifications

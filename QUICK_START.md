@@ -28,6 +28,9 @@
 | `/result_on_date DATE TYPE` | Filter results by date & type |
 | `/deals SYMBOL` | Query bulk deals for any stock |
 | `/unlock SYMBOL` | Get all unlock dates (30d, 90d, 1y) |
+| `/anchor SYMBOL` | View anchor investor list for IPO |
+| `/anchor_info NAME` | Search anchor investor's portfolio |
+| `/lm NAME` | View lead manager's IPO portfolio |
 | `/esm SYMBOL` | ESM history & surveillance status |
 | `/premium` | View & subscribe to premium plans |
 
@@ -77,6 +80,9 @@ Everything in FREE **plus**:
 - 📈 **Filter Results by Date**: Query results by specific date and expectation type
 - 💼 **Query Bulk Deals**: Search and analyze bulk deal data on demand for any stock
 - 📅 **Query Unlock Dates**: Get all anchor unlock dates (30d, 90d, 1y) for any IPO
+- ⚓ **Query Anchor Investors**: View complete anchor investor list for any IPO
+- 🔍 **Anchor Portfolio Lookup**: Search any anchor investor's IPO investments
+- 🏢 **Lead Manager Portfolio**: View all IPOs managed by any lead manager
 - 🔸 **Query ESM History**: Complete Enhanced Surveillance Measure history for any stock
 - 🌟 **VIP/HNI Bulk Deal Alerts**: Automatic alerts when VIP clients trade (NEW!)
 - 🎯 **Anchor Entry/Exit Alerts**: Real-time anchor investor tracking (NEW!)
