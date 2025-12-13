@@ -87,9 +87,9 @@ Everything in FREE **plus**:
 - 🌟 **VIP/HNI Bulk Deal Alerts**: Automatic alerts when VIP clients trade (NEW!)
 - 🎯 **Anchor Entry/Exit Alerts**: Real-time anchor investor tracking (NEW!)
 - 📈 **Trading Sessions**: SME IPOs approaching 10th trading session
-- 🔓 **Anchor Unlocks (30-day)**: 30-day lock-in period expiry alerts
-- 🔓 **Anchor Unlocks (90-day)**: 90-day lock-in period expiry alerts
-- 🔍 **Pre-IPO Unlock Notifications**: 1-year lock-in expiry tracking
+- 🔸 **Anchor Unlocks (30-day)**: Daily 3:30 PM IST (SME & Mainboard separate)
+- 🔹 **Anchor Unlocks (90-day)**: Daily 3:15 PM IST (SME & Mainboard separate)
+- 🔺 **Pre-IPO Unlock Notifications**: Weekly Saturday 3:00 PM IST (SME 1-year, Mainboard 6-month)
 - ⭐ **Early Access**: New features before everyone else
 
 **[See all premium examples →](EXAMPLES.md)**

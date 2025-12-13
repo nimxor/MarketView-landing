@@ -490,7 +490,13 @@ View anchor investors whose 30-day lock-in period is expiring within the next 7 
 - Early warning for potential volatility
 
 ### Automated Broadcasts
-Premium users receive automated alerts 7 days before 30-day anchor unlocks.
+
+Premium users receive **6 separate unlock notifications**:
+
+**1-Month Anchor Unlocks (Daily, Mon-Fri):**
+- 🔸 SME IPOs: 3:30 PM IST
+- 🔸 Mainboard IPOs: 3:32 PM IST
+- Alert window: Next 10 days
 
 ---
 
@@ -544,7 +550,11 @@ View anchor investors whose 90-day lock-in period is expiring within the next 15
 - Time to plan trading strategy
 
 ### Automated Broadcasts
-Premium users receive automated alerts 15 days before 90-day anchor unlocks.
+
+**3-Month Anchor Unlocks (Daily, Mon-Fri):**
+- 🔹 SME IPOs: 3:15 PM IST
+- 🔹 Mainboard IPOs: 3:17 PM IST
+- Alert window: Next 15 days
 
 ---
 
@@ -598,7 +608,11 @@ Get notified about pre-IPO shareholders whose 1-year lock-in period is expiring 
 - Critical for planning around major unlock events
 
 ### Automated Broadcasts
-Premium users receive automated alerts 30 days before 1-year pre-IPO unlocks.
+
+**Pre-IPO Unlocks (Weekly, Saturday):**
+- 🔺 SME IPOs (1-year lock-in): 3:00 PM IST
+- 🔺 Mainboard IPOs (6-month lock-in): 3:02 PM IST
+- Alert window: Next 30 days
 
 ---
 
@@ -1158,10 +1172,11 @@ Once your premium subscription is active, you can use any of these commands:
 - `/anchor_3m` - View 90-day unlocks
 - `/preipo_unlock` - View 1-year unlocks
 
-**Automated Broadcasts** (Daily):
-Premium users automatically receive daily broadcasts for:
-- Trading sessions approaching 10th session
-- Anchor unlocks (30-day, 90-day, 1-year)
+**Automated Broadcasts** (Daily/Weekly):
+Premium users automatically receive unlock notifications:
+- 🔸 1M Anchor Unlock: Daily 3:30 PM IST (SME & Mainboard)
+- 🔹 3M Anchor Unlock: Daily 3:15 PM IST (SME & Mainboard)
+- 🔺 Pre-IPO Unlock: Weekly Saturday 3:00 PM IST (SME 1-year, Mainboard 6-month)
 
 ### Step 3: Check Your Status
 
