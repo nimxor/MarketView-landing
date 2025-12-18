@@ -69,8 +69,10 @@ Everything in FREE, **plus**:
 - 🔍 **[Anchor Portfolio Lookup](EXAMPLES.md#-anchor-portfolio-lookup)** - Search any anchor investor's IPO investments
 - 🏢 **[Lead Manager Portfolio](EXAMPLES.md#-lead-manager-portfolio)** - View all IPOs managed by any lead manager
 - 🔸 **[Query ESM History](EXAMPLES.md#-esm-surveillance-history)** - Complete Enhanced Surveillance Measure history for any stock
-- 🌟 **[VIP/HNI Bulk Deal Alerts](EXAMPLES.md#-viphni-bulk-deal-alerts-new)** - Automatic alerts when VIP clients trade (NEW!)
-- 🎯 **[Anchor Entry/Exit Alerts](EXAMPLES.md#-anchor-entryexit-alerts-new)** - Real-time anchor investor tracking (NEW!)
+- 👤 **[HNI/Investor Lookup](EXAMPLES.md#-hniinvestor-bulk-deals-lookup)** - Search any investor's complete bulk deals history (NEW!)
+- 🤖 **[ESM Prediction Alerts](EXAMPLES.md#-esm-prediction-alerts)** - AI-powered predictions for stocks likely to enter ESM (NEW!)
+- 🌟 **[VIP/HNI Bulk Deal Alerts](EXAMPLES.md#-viphni-bulk-deal-alerts-new)** - Automatic alerts when VIP clients trade
+- 🎯 **[Anchor Entry/Exit Alerts](EXAMPLES.md#-anchor-entryexit-alerts-new)** - Real-time anchor investor tracking
 - 📈 **[Trading Sessions](EXAMPLES.md#-trading-sessions-alerts)** - SME IPOs approaching 10th trading session
 - 🔸 **[Anchor Unlocks (30-day)](EXAMPLES.md#-anchor-unlock-alerts-30-day-lock-in)** - Daily 3:30 PM IST (SME & Mainboard separate)
 - 🔹 **[Anchor Unlocks (90-day)](EXAMPLES.md#-anchor-unlock-alerts-90-day-lock-in)** - Daily 3:15 PM IST (SME & Mainboard separate)
@@ -128,6 +130,7 @@ Everything in FREE, **plus**:
 /anchor_info NAME         - Search anchor investor's portfolio
 /lm NAME                  - View lead manager's IPO portfolio
 /esm SYMBOL               - ESM history & surveillance status
+/hni NAME                 - Search investor's bulk deals history
 /trading_session     - SME IPO trading session alerts
 /anchor_1m           - 30-day anchor unlock notifications
 /anchor_3m           - 90-day anchor unlock notifications

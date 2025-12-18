@@ -1059,6 +1059,138 @@ The `/esm` command supports smart search for both NSE and BSE stocks:
 
 ---
 
+## 👤 HNI/Investor Bulk Deals Lookup
+
+**Command**: `/hni <investor name>`
+
+Search any investor's complete bulk deals history across all stocks. Perfect for tracking what famous investors like Mukul Agrawal, Dolly Khanna, or Vijay Kedia are buying and selling.
+
+### Examples
+
+```
+/hni mukul agrawal
+/hni dolly khanna
+/hni vijay kedia
+/hni ashish
+```
+
+### Sample Response
+
+```
+👤 HNI/Client Bulk Deals
+
+📊 MUKUL AGRAWAL
+────────────────────────
+
+📈 STOCKS TRADED: 15
+
+1. RAVEL TECHNOLOGY
+   🟢 BUY | 50,000 @ ₹245.00
+   📅 15 Dec 2024
+
+2. INDO FARM EQUIPMENT
+   🔴 SELL | 25,000 @ ₹312.50
+   📅 12 Dec 2024
+
+3. CEINSYS TECH
+   🟢 BUY | 100,000 @ ₹180.25
+   📅 10 Dec 2024
+
+... and 12 more deals
+
+────────────────────────
+💡 Total: 50 deals found
+```
+
+### What You Get
+
+- **Complete History**: All bulk deals by the investor across all stocks
+- **Buy/Sell Tracking**: See exactly what they're buying and selling
+- **Price & Quantity**: Full transaction details
+- **Date Tracking**: When each deal was made
+- **Fuzzy Matching**: Partial names work - `/hni ashish` finds Ashish Kacholia
+
+### Use Cases
+
+1. **Follow Famous Investors**: Track what top HNIs are buying
+2. **Investment Ideas**: See which stocks attract big investors
+3. **Exit Alerts**: Know when big investors are selling
+4. **Pattern Analysis**: Understand investor preferences
+
+### Clickable Links in Alerts
+
+When you receive bulk deal alerts, investor names are **clickable**! Tap on any investor name to instantly see their complete bulk deals history.
+
+### Smart Fuzzy Matching
+
+The `/hni` command supports intelligent matching:
+- Partial names: `/hni mukul` finds "Mukul Agrawal"
+- Case insensitive: `/hni DOLLY` works
+- Multiple matches: Shows suggestions if multiple investors match
+
+---
+
+## 🤖 ESM Prediction Alerts
+
+**Trigger**: Automatic (Weekly Wednesday 3:00 AM IST)
+
+AI-powered predictions for stocks that are likely to enter ESM (Enhanced Surveillance Measure) based on price volatility patterns.
+
+### What You Get
+
+Premium subscribers receive automatic weekly alerts identifying stocks that show patterns similar to those that typically precede ESM entry:
+
+- **High Volatility Detection**: Stocks with unusual price swings
+- **Pattern Analysis**: Price movements matching historical ESM entries
+- **Early Warning**: Get alerts before official ESM announcement
+- **Action Time**: Plan your strategy before ESM restrictions kick in
+
+### Sample Alert
+
+```
+🤖 ESM PREDICTION ALERT
+━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ High ESM Risk Stocks
+
+These stocks show patterns similar to
+previous ESM entries:
+
+1. EXAMPLE STOCK LTD
+   📊 Volatility Score: 85%
+   📈 Price Change: +45% (5 days)
+   ⚠️ Risk Level: HIGH
+
+2. ANOTHER STOCK LTD
+   📊 Volatility Score: 72%
+   📈 Price Change: +38% (5 days)
+   ⚠️ Risk Level: MEDIUM
+
+━━━━━━━━━━━━━━━━━━━━━━
+💡 These are predictions based on
+price patterns. Not guaranteed.
+```
+
+### Automated Broadcasts
+
+- **Schedule**: Every Wednesday at 3:00 AM IST
+- **Frequency**: Weekly
+- **Audience**: Premium subscribers only
+
+### Why This Matters
+
+1. **Risk Management**: Avoid getting stuck in illiquid ESM stocks
+2. **Exit Planning**: Plan exits before trading restrictions
+3. **Investment Decisions**: Factor ESM risk into buy decisions
+4. **Pattern Recognition**: Learn which patterns lead to ESM
+
+### Related Features
+
+- **ESM History** (`/esm`): Check any stock's ESM history
+- **Daily ESM Updates**: Free alerts for actual ESM entries/exits
+
+---
+
 ## ⭐ Early Access to New Features
 
 Premium subscribers get **first access** to all new features before they're released to free users.
@@ -1074,6 +1206,8 @@ All the features above were initially released to premium users as early access:
 - **Anchor Portfolio Lookup** (`/anchor_info`) - Search anchor investor's history
 - **Lead Manager Portfolio** (`/lm`) - View lead manager's IPO portfolio
 - **Query ESM History** (`/esm`) - Complete surveillance history for any stock
+- **HNI/Investor Lookup** (`/hni`) - Search any investor's bulk deals history (NEW!)
+- **ESM Prediction Alerts** - AI-powered ESM risk predictions (NEW!)
 - **Trading Sessions** (`/trading_session`) - SME circuit filter alerts
 - **Anchor Unlocks** (`/anchor_1m`, `/anchor_3m`) - Lock-in expiry tracking
 - **Pre-IPO Unlocks** (`/preipo_unlock`) - 1-year unlock notifications
