@@ -101,12 +101,19 @@ Everything in FREE **plus**:
 
 ## 💰 Premium Pricing
 
+### 🎄 Christmas Special Offer!
+
+| Plan | ~~Regular~~ | **Christmas Price** | Duration |
+|------|-------------|---------------------|----------|
+| Half-Yearly | ~~₹3,199~~ | **₹2,799** | 180 days |
+| **Annual** ⭐ | ~~₹5,999~~ | **₹4,999** | 365 days |
+
+### Regular Plans
+
 | Plan | Price | Duration | Savings |
 |------|-------|----------|---------|
 | Monthly | ₹699 | 30 days | - |
 | Quarterly | ₹1,799 | 90 days | 14% |
-| Half-Yearly | ₹3,199 | 180 days | 24% |
-| **Annual** ⭐ | ₹5,999 | 365 days | **30%** |
 
 ---
 
