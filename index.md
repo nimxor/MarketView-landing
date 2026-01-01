@@ -87,12 +87,12 @@ Everything in FREE, **plus**:
 
 | Plan | Price | Duration | Savings |
 |------|-------|----------|---------|
-| Monthly | ₹699 | 30 days | - |
-| Quarterly | ₹1,799 | 90 days | 14% off |
-| Half-Yearly | ₹3,199 | 180 days | 24% off |
-| **Annual** ⭐ | **₹5,999** | 365 days | **30% off** |
+| Monthly | ₹799 | 30 days | - |
+| Quarterly | ₹1,999 | 90 days | 17% off |
+| Half-Yearly | ₹3,599 | 180 days | 25% off |
+| **Annual** ⭐ | **₹6,999** | 365 days | **27% off** |
 
-> **Only ₹16.43/day** for annual plan - less than a cup of coffee!
+> **Only ₹19.17/day** for annual plan - less than a cup of coffee!
 
 ---
 
