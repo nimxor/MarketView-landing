@@ -227,6 +227,83 @@ TATASTEEL
 
 ---
 
+## 📦 Query Order Updates
+
+**Command**: `/orders SYMBOL`
+
+View company order announcements extracted from corporate filings using AI. Track new orders, contracts, and business wins.
+
+### Examples
+
+```
+/orders RITCO
+/orders Ritco Logistics
+/orders PRLIND
+/orders Premier Roadlines
+/orders Apollo Micro
+```
+
+### Sample Response
+
+```
+📦 Orders for RITCO
+Ritco Logistics Limited
+
+📊 Summary
+Total Orders: 12
+Total Value: ₹130.50 Cr
+🏠 Domestic: 10 | 🌍 International: 2
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📅 12 Nov 2025
+💰 ₹60 Crore
+🏢 Petrochemical major 🏠
+📎 View PDF
+
+📅 10 Nov 2025
+💰 ₹25 Crore
+🏢 Nestlé India 🏠
+📎 View PDF
+
+📅 05 Nov 2025
+💰 USD 5 Million
+🏢 International Client 🌍
+📎 View PDF
+
+... and 9 more orders
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+Data extracted from corporate announcements using AI
+```
+
+### What You Get
+- Complete order history for any company
+- Order value (in Crores/Lakhs or USD)
+- Client/entity name who placed the order
+- Domestic vs International classification
+- Direct PDF links to original announcements
+- AI-extracted data from corporate filings
+- Total order value summary
+
+### Use Cases
+
+1. **Track Order Flow**: Monitor companies winning new contracts
+2. **Sector Analysis**: Compare order wins across companies
+3. **Investment Research**: Evaluate revenue visibility from order book
+4. **SME Tracking**: Small-cap companies often announce significant orders
+
+### Smart Fuzzy Matching
+
+Works with partial names:
+```
+/orders ritco         → Ritco Logistics
+/orders premier road  → Premier Roadlines
+/orders apollo        → Apollo Micro Systems
+```
+
+---
+
 ## 🌟 VIP/HNI Bulk Deal Alerts (NEW!)
 
 **Trigger**: Automatic (Premium Only)
@@ -1223,7 +1300,7 @@ Premium users will get early access to:
 
 ## 🎯 Smart Fuzzy Matching
 
-All query commands (`/results`, `/deals`, `/unlock`, `/anchor`, `/anchor_info`, `/lm`, and `/esm`) support **fuzzy matching** for easy searching.
+All query commands (`/results`, `/deals`, `/orders`, `/unlock`, `/anchor`, `/anchor_info`, `/lm`, and `/esm`) support **fuzzy matching** for easy searching.
 
 ### How It Works
 
@@ -1296,6 +1373,7 @@ Once your premium subscription is active, you can use any of these commands:
 **Query Commands** (On-Demand):
 - `/results SYMBOL` - Check result dates
 - `/deals SYMBOL` - Check bulk deals
+- `/orders SYMBOL` - Check company order updates
 - `/unlock SYMBOL` - Get all unlock dates
 - `/anchor SYMBOL` - View anchor investor list
 - `/anchor_info NAME` - Search anchor portfolio

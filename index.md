@@ -64,6 +64,7 @@ Everything in FREE, **plus**:
 - 📊 **[Live Result Updates](EXAMPLES.md#-live-result-updates)** - Near real-time result notifications with expectations
 - 📈 **[Filter Results by Date](EXAMPLES.md#-filter-results-by-date-and-type)** - Query results by specific date and expectation type
 - 💼 **[Query Bulk Deals](EXAMPLES.md#-query-bulk-deals)** - Search and analyze bulk deal data on demand for any stock
+- 📦 **[Query Order Updates](EXAMPLES.md#-query-order-updates)** - View company order announcements with values and clients
 - 📅 **[Query Unlock Dates](EXAMPLES.md#-query-unlock-dates-for-any-ipo)** - Get all anchor unlock dates (30d, 90d, 1y) for any IPO
 - ⚓ **[Query Anchor Investors](EXAMPLES.md#-query-anchor-investors)** - View complete anchor investor list for any IPO
 - 🔍 **[Anchor Portfolio Lookup](EXAMPLES.md#-anchor-portfolio-lookup)** - Search any anchor investor's IPO investments
@@ -125,6 +126,7 @@ Everything in FREE, **plus**:
 /results SYMBOL           - Query result dates & expectations
 /result_on_date DATE TYPE - Filter results by date & type
 /deals SYMBOL             - Query bulk deals for any stock
+/orders SYMBOL            - Query company order updates
 /unlock SYMBOL            - Get all unlock dates (30d, 90d, 1y)
 /anchor SYMBOL            - View anchor investor list for IPO
 /anchor_info NAME         - Search anchor investor's portfolio
